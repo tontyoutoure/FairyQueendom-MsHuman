@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<GameData>
+		<LocalizedText>
+			<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_NAME" Language="zh_Hans_CN">	<Text>妖精帝国</Text></Replace>
+			<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_DESCRIPTION" Language="zh_Hans_CN">	<Text>妖精帝国</Text></Replace>
+			<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_ADJECTIVE" Language="zh_Hans_CN">	<Text>女王</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_1" Language="zh_Hans_CN">	<Text>樟树之里</Text></Replace>
+			<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_FAIRYCO_NAME" Language="zh_Hans_CN">	<Text>妖精帝国特色区域：妖精社</Text></Replace>
+			<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_THE_FAIRIES_NAME" Language="zh_Hans_CN">	<Text>妖精帝国特色单位单位：妖精桑</Text></Replace>
+			<Replace Tag="LOC_TRAIT_ONE_NIGHT_CITY_NAME" Language="zh_Hans_CN">	<Text>一夜城</Text></Replace>
+			<Replace Tag="LOC_TRAIT_ONE_NIGHT_CITY_DESCRIPTION" Language="zh_Hans_CN">	<Text>妖精们鼓起干劲的时候，工作效率是很高的。在建造建筑，奇观和区域时，+15% [ICON_Production] 生产力。可以消耗建造者劳动力的一次劳动力来来推进15%的建造进程。作为代价，建造出来的东西都很不稳固，城市初始生命值减100点，所有单位 -5 [ICON_Strength] 战斗力。</Text></Replace>
+			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_1" Language="zh_Hans_CN">	<Text>助手先生</Text></Replace>
+			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_2" Language="zh_Hans_CN">	<Text>爷爷</Text></Replace>
+			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_3" Language="zh_Hans_CN">	<Text>文化局长</Text></Replace>
+			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_4" Language="zh_Hans_CN">	<Text>波伊哲</Text></Replace>
+			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_1" Language="zh_Hans_CN">	<Text>Y</Text></Replace>
+			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_2" Language="zh_Hans_CN">	<Text>P子小姐</Text></Replace>
+			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_3" Language="zh_Hans_CN">	<Text>卷发</Text></Replace>
+			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_4" Language="zh_Hans_CN">	<Text>花学姐</Text></Replace>
+			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_5" Language="zh_Hans_CN">	<Text>魔女学姐</Text></Replace>
+			<Replace Tag="LOC_FAIRY_QUEENDOM_HISTORY" Language="zh_Hans_CN">	<Text>人类衰退之后经过了好几个世纪，人类因为不明原因而导致出生率严重下降，未来人类的人口 大幅锐减，不要说发展，连文明的传承都没有办法了，人类正慢慢地退出历史的舞台。而取代人类出现在地球上的则是一种很像童话故事中才会出现的不明生物妖精。妖精的平均身高只有10公分，三头身的妖精们却拥有高度的智慧，而且非常喜欢吃糖果点心。作为最后一届的毕业生的人类小姐毕业之后就回到故乡樟树之里去接续祖父的工作，成为负责斡旋在妖精与人类之间的重要国际公务员“调停官”。虽然如此，由于妖精很少跟人类接触，因此她根本没啥工作可作，因此她想要好好研究妖精的生态。</Text></Replace>
+			<Replace Tag="LOC_CIVINFO_FAIRY_QUEENDOM_HISTORY" Language="zh_Hans_CN">	<Text>人类衰退之后经过了好几个世纪，人类因为不明原因而导致出生率严重下降，未来人类的人口 大幅锐减，不要说发展，连文明的传承都没有办法了，人类正慢慢地退出历史的舞台。而取代人类出现在地球上的则是一种很像童话故事中才会出现的不明生物妖精。妖精的平均身高只有10公分，三头身的妖精们却拥有高度的智慧，而且非常喜欢吃糖果点心。作为最后一届的毕业生的人类小姐毕业之后就回到故乡樟树之里去接续祖父的工作，成为负责斡旋在妖精与人类之间的重要国际公务员“调停官”。虽然如此，由于妖精很少跟人类接触，因此她根本没啥工作可作，因此她想要好好研究妖精的生态。</Text></Replace>
+			<Replace Tag="LOC_FAIRY_QUEENDOM_POPULATION" Language="zh_Hans_CN">	<Text>不定。</Text></Replace>
+			<Replace Tag="LOC_CIVINFO_FAIRY_QUEENDOM_POPULATION" Language="zh_Hans_CN">	<Text>不定。</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_2" Language="zh_Hans_CN">	<Text>调停官之屋</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_3" Language="zh_Hans_CN">	<Text>綜合文化中心</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_4" Language="zh_Hans_CN">	<Text>妖精社总部</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_5" Language="zh_Hans_CN">	<Text>同人志印刷厂</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_6" Language="zh_Hans_CN">	<Text>饼干之城</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_7" Language="zh_Hans_CN">	<Text>蛋糕之称</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_8" Language="zh_Hans_CN">	<Text>巧克力之城</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_9" Language="zh_Hans_CN">	<Text>学园</Text></Replace>
+			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_10" Language="zh_Hans_CN">	<Text>蓄电设施</Text></Replace>
+			<Replace Tag="LOC_BUILDING_DESSERT_HOUSE_NAME" Language="zh_Hans_CN">	<Text>点心制作小屋</Text></Replace>
+			<Replace Tag="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION" Language="zh_Hans_CN">	<Text>人类小姐制作美味点心的地方，替代谷仓。根据各地食材不同只能制作当地特有的点心。前六个建立的点心作坊会提供六种点心奢侈品中的一种，+6 [ICON_Amenities] 宜居度。</Text></Replace>
+			<Replace Tag="LOC_BUILDING_GODDESS_STATUE_NAME" Language="zh_Hans_CN">	<Text>女神雕像</Text></Replace>
+			<Replace Tag="LOC_BUILDING_GODDESS_STATUE_DESCRIPTION" Language="zh_Hans_CN">	<Text>妖精桑们为人类小姐树立的雕像，替代纪念碑。额外+2 [ICON_Faith] 信仰值。</Text></Replace>
+			<Replace Tag="LOC_RESOURCE_DESSERT_1_NAME" Language="zh_Hans_CN">	<Text>蛋糕</Text></Replace>
+			<Replace Tag="LOC_RESOURCE_DESSERT_2_NAME" Language="zh_Hans_CN">	<Text>饼干</Text></Replace>
+			<Replace Tag="LOC_RESOURCE_DESSERT_3_NAME" Language="zh_Hans_CN">	<Text>水果挞</Text></Replace>
+			<Replace Tag="LOC_RESOURCE_DESSERT_4_NAME" Language="zh_Hans_CN">	<Text>马卡龙</Text></Replace>
+			<Replace Tag="LOC_RESOURCE_DESSERT_5_NAME" Language="zh_Hans_CN">	<Text>华夫饼</Text></Replace>
+			<Replace Tag="LOC_RESOURCE_DESSERT_6_NAME" Language="zh_Hans_CN">	<Text>甜圈圈</Text></Replace>
+			<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_NAME" Language="zh_Hans_CN">	<Text>妖精帝国</Text></Replace>
+			<Replace Tag="LOC_LEADER_MS_HUMAN_NAME" Language="zh_Hans_CN">	<Text>人类小姐</Text></Replace>
+			<Replace Tag="LOC_LEADER_MS_HUMAN_LOADING_INFO"Language="zh_Hans_CN"><Text>人类小姐</Text></Replace>
+			<Replace Tag="LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_NAME" Language="zh_Hans_CN">	<Text>粉红切开都是黑的</Text></Replace>
+			<Replace Tag="LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_DESCRIPTION" Language="zh_Hans_CN">	<Text>在可爱的外表下面，人类小姐实际上拥有一颗腹黑的心。不过好在她也不会用来干坏事，她只是能够看穿别人外表下的真实想法罢了。+2 [ICON_VisLimited] 外交可见度。</Text></Replace>
+			<Replace Tag="LOC_UNIT_THE_FAIRIES_NAME" Language="zh_Hans_CN">	<Text>妖精桑</Text></Replace>
+			<Replace Tag="LOC_UNIT_THE_FAIRIES_DESCRIPTION" Language="zh_Hans_CN">	<Text>替代建造者。无法被建造，只有一次行动力。只会被奢侈品（尤其是点心！）和同伴吸引而来。在不快乐的城市以及电波附近（无线电台）3格内，会逐渐失去活力，慢慢损失生命值。</Text></Replace>
+			<Replace Tag="LOC_DISTRICT_FAIRYCO_NAME" Language="zh_Hans_CN">	<Text>妖精社</Text></Replace>
+			<Replace Tag="LOC_DISTRICT_FAIRYCO_DESCRIPTION" Language="zh_Hans_CN">	<Text>替代工厂区。可以有力地支持城镇的发展以及食物供给。与城镇中心拥有大量的临近加成，并提供和 [ICON_Production] 产能加成相同的 [ICON_Food] 食物加成。内部的建筑无需要专家来操作即可提供和专家槽占满时一样的 [ICON_Production] 生产力，并提供生产力等量的食物 [ICON_Food]。因为很可疑，会造成周围居民的不安，会每回合-10忠诚度。</Text></Replace>
+			<Replace Tag="LOC_DISTRICT_MINE_FOOD" Language="zh_Hans_CN">	<Text>+{1_num} [ICON_Food] 食物来自相邻{1_Num : plural 1?矿山; other?矿山;}。</Text></Replace>
+			<Replace Tag="LOC_DISTRICT_QUARRY_FOOD" Language="zh_Hans_CN">	<Text>+{1_num} [ICON_Food] 食物来自相邻{1_Num : plural 1?采石场; other?采石场;}。</Text></Replace>
+			<Replace Tag="LOC_DISTRICT_DISTRICT_FOOD" Language="zh_Hans_CN">	<Text>+{1_num} [ICON_Production] 生产力来自相邻{1_Num : plural 1?区域; other?区域;}。</Text></Replace>
+			<Replace Tag="LOC_DISTRICT_FAIRYCO_CITY_CENTER_PRODUCTION" Language="zh_Hans_CN">	<Text>+{1_num} [ICON_Production] 生产力来自相邻城镇中心区域。</Text></Replace>
+			<Replace Tag="LOC_DISTRICT_FAIRYCO_CITY_CENTER_FOOD" Language="zh_Hans_CN">	<Text>+{1_num} [ICON_Food] 食物来自相邻城镇中心区域。</Text></Replace>
+			<Replace Tag="LOC_LEADER_MS_HUMAN_QUOTE" Language="zh_Hans_CN">	<Text>隐瞒，操纵，恐吓</Text></Replace>
+			<Replace Tag="LOC_AGENDA_UNITED_NATIONS_ARBITRATOR_NAME" Language="zh_Hans_CN">	<Text>联合国调停官</Text></Replace>
+			<Replace Tag="LOC_AGENDA_UNITED_NATIONS_ARBITRATOR_DESCRIPTION" Language="zh_Hans_CN">	<Text>讨厌发动战争的文明，喜欢不发动战争的文明。</Text></Replace>
+			<Replace Tag="LOC_TRAIT_LEADER_BUILDING_DESSERT_HOUSE_NAME" Language="zh_Hans_CN">	<Text>人类小姐特色建筑：点心制作小屋</Text></Replace>
+			<Replace Tag="LOC_TRAIT_LEADER_BUILDING_GODDESS_STATUE_NAME" Language="zh_Hans_CN">	<Text>人类小姐特色建筑：妖精女神像</Text></Replace>
+
+		</LocalizedText>
+	</GameData>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_DESSERT_HOUSE" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_DESSERT_HOUSE_1" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_DESSERT_HOUSE_2" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_DESSERT_HOUSE_3" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_DESSERT_HOUSE_4" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_DESSERT_HOUSE_5" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_DESSERT_HOUSE_6" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_GODDESS_STATUE" Kind="KIND_BUILDING"/>
+		<Row Type="RESOURCE_DESSERT_1" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_DESSERT_2" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_DESSERT_3" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_DESSERT_4" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_DESSERT_5" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_DESSERT_6" Kind="KIND_RESOURCE"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_DESSERT_HOUSE" ReplacesBuildingType="BUILDING_GRANARY"/>
+		<Row CivUniqueBuildingType="BUILDING_GODDESS_STATUE" ReplacesBuildingType="BUILDING_MONUMENT"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE" 
+			 Name="LOC_BUILDING_DESSERT_HOUSE_NAME" 
+			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER" 
+			 PurchaseYield="YIELD_GOLD" 
+			 Cost="3.5" 
+			 AdvisorType="ADVISOR_GENERIC" 
+			 Housing="2"
+			 TraitType="TRAIT_LEADER_BUILDING_DESSERT_HOUSE"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_1"
+			 Name="LOC_BUILDING_DESSERT_HOUSE_NAME"
+			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="35"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Housing="2"
+			 EnabledByReligion="true"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_2"
+			 Name="LOC_BUILDING_DESSERT_HOUSE_NAME"
+			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="35"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Housing="2"
+			 EnabledByReligion="true"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_3"
+			 Name="LOC_BUILDING_DESSERT_HOUSE_NAME"
+			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="35"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Housing="2"
+			 EnabledByReligion="true"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_4"
+			 Name="LOC_BUILDING_DESSERT_HOUSE_NAME"
+			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="35"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Housing="2"
+			 EnabledByReligion="true"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_5"
+			 Name="LOC_BUILDING_DESSERT_HOUSE_NAME"
+			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="35"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Housing="2"
+			 EnabledByReligion="true"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_6"
+			 Name="LOC_BUILDING_DESSERT_HOUSE_NAME"
+			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="35"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Housing="2"
+			 EnabledByReligion="true"/>
+		<Row BuildingType="BUILDING_GODDESS_STATUE" 
+			 Name="LOC_BUILDING_GODDESS_STATUE_NAME" 
+			 PrereqDistrict="DISTRICT_CITY_CENTER"
+			 Description="LOC_BUILDING_GODDESS_STATUE_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" 
+			 Cost="60" 
+			 AdvisorType="ADVISOR_CULTURE"
+			 TraitType="TRAIT_LEADER_BUILDING_GODDESS_STATUE"/>
+
+
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_GODDESS_STATUE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_GODDESS_STATUE" YieldType="YIELD_FAITH" YieldChange="2"/>
+	</Building_YieldChanges>
+
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_DESSERT_HOUSE_1" MutuallyExclusiveBuilding="BUILDING_DESSERT_HOUSE"/>
+		<Row Building="BUILDING_DESSERT_HOUSE" MutuallyExclusiveBuilding="BUILDING_DESSERT_HOUSE_1"/>
+	</MutuallyExclusiveBuildings>
+		
+	<Modifiers>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_1" RunOnce="true" Permanent="true" ModifierType="MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_2" RunOnce="true" Permanent="true" ModifierType="MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_3" RunOnce="true" Permanent="true" ModifierType="MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_4" RunOnce="true" Permanent="true" ModifierType="MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_5" RunOnce="true" Permanent="true" ModifierType="MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_6" RunOnce="true" Permanent="true" ModifierType="MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY"/>
+
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_1" Name="ResourceType" Value="RESOURCE_DESSERT_1"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_2" Name="ResourceType" Value="RESOURCE_DESSERT_2"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_3" Name="ResourceType" Value="RESOURCE_DESSERT_3"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_4" Name="ResourceType" Value="RESOURCE_DESSERT_4"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_5" Name="ResourceType" Value="RESOURCE_DESSERT_5"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_6" Name="ResourceType" Value="RESOURCE_DESSERT_6"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_1" Name="Amount" Value="1"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_2" Name="Amount" Value="1"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_3" Name="Amount" Value="1"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_4" Name="Amount" Value="1"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_5" Name="Amount" Value="1"/>
+		<Row ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_6" Name="Amount" Value="1"/>
+	</ModifierArguments>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_1" ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_1"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_2" ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_2"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_3" ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_3"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_4" ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_4"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_5" ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_5"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_6" ModifierId="BUILDING_DESSERT_HOUSE_DESSERT_6"/>
+		<Row BuildingType="BUILDING_GODDESS_STATUE" ModifierId="MONUMENT_LOYALTY"/>
+		<Row BuildingType="BUILDING_GODDESS_STATUE" ModifierId="MONUMENT_CULTURE_AT_FULL_LOYALTY"/>
+	</BuildingModifiers>
+	<Resources>
+		<Row ResourceType="RESOURCE_DESSERT_1" Name="LOC_RESOURCE_DESSERT_1_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+		<Row ResourceType="RESOURCE_DESSERT_2" Name="LOC_RESOURCE_DESSERT_2_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+		<Row ResourceType="RESOURCE_DESSERT_3" Name="LOC_RESOURCE_DESSERT_3_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+		<Row ResourceType="RESOURCE_DESSERT_4" Name="LOC_RESOURCE_DESSERT_4_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+		<Row ResourceType="RESOURCE_DESSERT_5" Name="LOC_RESOURCE_DESSERT_5_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+		<Row ResourceType="RESOURCE_DESSERT_6" Name="LOC_RESOURCE_DESSERT_6_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+	</Resources>
+</GameData>

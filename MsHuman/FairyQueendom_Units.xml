@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: LI Kun -->
+<!-- DateCreated: 2021-2-5 5:59:17 AM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_THE_FAIRIES" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_THE_FAIRIES" AiType="UNITAI_BUILD"/>
+		<Row UnitType="UNIT_THE_FAIRIES" AiType="UNITTYPE_CIVILIAN"/>
+	</UnitAiInfos>
+	<UnitCaptures>
+		<Row CapturedUnitType="UNIT_THE_FAIRIES" BecomesUnitType="UNIT_BUILDER"/>
+	</UnitCaptures>
+	<TypeTags>
+		<Row Type="UNIT_THE_FAIRIES" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_THE_FAIRIES" Tag="CLASS_BUILDER"/>
+		<Row Type="UNIT_THE_FAIRIES" Tag="CLASS_PARADROP"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_THE_FAIRIES" 
+			 Cost="10" 
+			 BaseMoves="2" 
+			 BaseSightRange="2" 
+			 ZoneOfControl="false" 
+			 Domain="DOMAIN_LAND" 
+			 FormationClass="FORMATION_CLASS_CIVILIAN" 
+			 AdvisorType="ADVISOR_GENERIC"
+			 Name="LOC_UNIT_THE_FAIRIES_NAME" 
+			 Description="LOC_UNIT_THE_FAIRIES_DESCRIPTION" 
+			 CanCapture="False" 
+			 CostProgressionModel="NO_COST_PROGRESSION" 
+			 PurchaseYield="YIELD_GOLD" 
+			 BuildCharges="1"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_THE_FAIRIES"/>
+	</Units>
+	<Unit_BuildingPrereqs>
+	</Unit_BuildingPrereqs>
+</GameData>

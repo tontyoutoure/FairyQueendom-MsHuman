@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="DISTRICT_FAIRYCO" Kind="KIND_DISTRICT"/>
+	</Types>
+	
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_FAIRYCO" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+	</DistrictReplaces>
+	
+	<Districts>
+		<Row DistrictType="DISTRICT_FAIRYCO" 
+			 Name="LOC_DISTRICT_FAIRYCO_NAME" 
+			 Description="LOC_DISTRICT_FAIRYCO_DESCRIPTION" 
+			 PrereqTech="TECH_APPRENTICESHIP" 
+			 PlunderType="PLUNDER_SCIENCE" 
+			 PlunderAmount="25" 
+			 AdvisorType="ADVISOR_GENERIC" 
+			 Cost="27" 
+			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			 CostProgressionParam1="40" 
+			 Maintenance="1" 
+			 RequiresPlacement="true" 
+			 RequiresPopulation="false" 
+			 Aqueduct="false" 
+			 NoAdjacentCity="false" 
+			 InternalOnly="false" 
+			 ZOC="false" 
+			 CaptureRemovesBuildings="false" 
+			 CaptureRemovesCityDefenses="false" 
+			 MilitaryDomain="NO_DOMAIN" 
+			 Appeal="-1" 
+			 TraitType="TRAIT_CIVILIZATION_DISTRICT_FAIRYCO"
+			 CityStrengthModifier="2"/>
+	</Districts>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldType="YIELD_PRODUCTION" YieldChange="-1"/>
+	</District_CitizenYieldChanges>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldChangeId="Mine_Production"/>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldChangeId="Mine_Food"/>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldChangeId="Quarry_Production"/>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldChangeId="Quarry_Food"/>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldChangeId="District_Production"/>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldChangeId="District_Food"/>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldChangeId="FairyCo_CityCenter_Production"/>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldChangeId="FairyCo_CityCenter_Food"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_FAIRYCO" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_FAIRYCO" YieldType="YIELD_FOOD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+	</District_TradeRouteYields>
+	<Adjacency_YieldChanges>
+		<Row ID="Mine_Food" Description="LOC_DISTRICT_MINE_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE"/>
+		<Row ID="Quarry_Food" Description="LOC_DISTRICT_QUARRY_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_QUARRY"/>
+		<Row ID="District_Food" Description="LOC_DISTRICT_DISTRICT_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
+
+		<Row ID="FairyCo_CityCenter_Production" Description="LOC_DISTRICT_FAIRYCO_CITY_CENTER_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="5" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="FairyCo_CityCenter_Food" Description="LOC_DISTRICT_FAIRYCO_CITY_CENTER_FOOD" YieldType="YIELD_FOOD" YieldChange="5" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+
+	</Adjacency_YieldChanges>
+	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_FAIRYCO" ModifierId="FAIRYCO_NEGATIVE_LOYALTY" />
+		<Row DistrictType="DISTRICT_FAIRYCO" ModifierId="FAIRYCO_EXTRA_PRODUCTION_WORKSHOP" />
+		<Row DistrictType="DISTRICT_FAIRYCO" ModifierId="FAIRYCO_EXTRA_PRODUCTION_FACTORY" />
+		<Row DistrictType="DISTRICT_FAIRYCO" ModifierId="FAIRYCO_EXTRA_PRODUCTION_POWER_PLANT" />
+		<Row DistrictType="DISTRICT_FAIRYCO" ModifierId="FAIRYCO_EXTRA_PRODUCTION_COAL_POWER_PLANT" />
+		<Row DistrictType="DISTRICT_FAIRYCO" ModifierId="FAIRYCO_EXTRA_PRODUCTION_FOSSIL_FUEL_POWER_PLANT" />
+	</DistrictModifiers>
+	<Modifiers>
+		<Row ModifierId="FAIRYCO_NEGATIVE_LOYALTY" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_WORKSHOP" OwnerRequirementSetId="REQUIREMENTS_HAS_WORKSHOP" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_FACTORY" OwnerRequirementSetId="REQUIREMENTS_HAS_FACTORY" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_POWER_PLANT" OwnerRequirementSetId="REQUIREMENTS_HAS_POWER_PLANT" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_COAL_POWER_PLANT" OwnerRequirementSetId="REQUIREMENTS_HAS_COAL_POWER_PLANT" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_FOSSIL_FUEL_POWER_PLANT" OwnerRequirementSetId="REQUIREMENTS_HAS_FOSSIL_FUEL_POWER_PLANT" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_WORKSHOP" OwnerRequirementSetId="REQUIREMENTS_HAS_WORKSHOP" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_FACTORY" OwnerRequirementSetId="REQUIREMENTS_HAS_FACTORY" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_POWER_PLANT" OwnerRequirementSetId="REQUIREMENTS_HAS_POWER_PLANT" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_COAL_POWER_PLANT" OwnerRequirementSetId="REQUIREMENTS_HAS_COAL_POWER_PLANT" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_FOSSIL_FUEL_POWER_PLANT" OwnerRequirementSetId="REQUIREMENTS_HAS_FOSSIL_FUEL_POWER_PLANT" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="FAIRYCO_NEGATIVE_LOYALTY" Name="Amount" Value="-10"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_WORKSHOP" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_FACTORY" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_POWER_PLANT" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_COAL_POWER_PLANT" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_FOSSIL_FUEL_POWER_PLANT" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_WORKSHOP" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_FACTORY" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_POWER_PLANT" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_COAL_POWER_PLANT" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_FOSSIL_FUEL_POWER_PLANT" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_WORKSHOP" Name="Amount" Value="2"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_FACTORY" Name="Amount" Value="2"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_POWER_PLANT" Name="Amount" Value="3"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_COAL_POWER_PLANT" Name="Amount" Value="3"/>
+		<Row ModifierId="FAIRYCO_EXTRA_PRODUCTION_FOSSIL_FUEL_POWER_PLANT" Name="Amount" Value="3"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_WORKSHOP" Name="Amount" Value="2"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_FACTORY" Name="Amount" Value="2"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_POWER_PLANT" Name="Amount" Value="3"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_COAL_POWER_PLANT" Name="Amount" Value="3"/>
+		<Row ModifierId="FAIRYCO_EXTRA_FOOD_FOSSIL_FUEL_POWER_PLANT" Name="Amount" Value="3"/>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row RequirementSetId="REQUIREMENTS_HAS_WORKSHOP" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQUIREMENTS_HAS_FACTORY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQUIREMENTS_HAS_POWER_PLANT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQUIREMENTS_HAS_COAL_POWER_PLANT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQUIREMENTS_HAS_FOSSIL_FUEL_POWER_PLANT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQUIREMENTS_HAS_WORKSHOP" RequirementId="REQUIREMENT_CITY_HAS_WORKSHOP"/>
+		<Row RequirementSetId="REQUIREMENTS_HAS_FACTORY" RequirementId="REQUIREMENT_CITY_HAS_FACTORY"/>
+		<Row RequirementSetId="REQUIREMENTS_HAS_POWER_PLANT" RequirementId="REQUIREMENT_CITY_HAS_POWER_PLANT"/>
+		<Row RequirementSetId="REQUIREMENTS_HAS_COAL_POWER_PLANT" RequirementId="REQUIREMENT_CITY_HAS_COAL_POWER_PLANT"/>
+		<Row RequirementSetId="REQUIREMENTS_HAS_FOSSIL_FUEL_POWER_PLANT" RequirementId="REQUIREMENT_CITY_HAS_FOSSIL_FUEL_POWER_PLANT"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_WORKSHOP" RequirementType="REQUIREMENT_CITY_HAS_BUILDING"/>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_FACTORY" RequirementType="REQUIREMENT_CITY_HAS_BUILDING"/>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_POWER_PLANT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING"/>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_COAL_POWER_PLANT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING"/>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_FOSSIL_FUEL_POWER_PLANT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_WORKSHOP" Name="BuildingType" Value="BUILDING_WORKSHOP"/>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_FACTORY" Name="BuildingType" Value="BUILDING_FACTORY"/>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_POWER_PLANT" Name="BuildingType" Value="BUILDING_POWER_PLANT"/>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_COAL_POWER_PLANT" Name="BuildingType" Value="BUILDING_COAL_POWER_PLANT"/>
+		<Row RequirementId="REQUIREMENT_CITY_HAS_FOSSIL_FUEL_POWER_PLANT" Name="BuildingType" Value="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
+	</RequirementArguments>
+</GameInfo>

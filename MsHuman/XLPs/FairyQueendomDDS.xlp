@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="FairyQueendomDDS"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="dessert_1_256"/>
+			<m_ObjectName text="dessert_1_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_1_38"/>
+			<m_ObjectName text="dessert_1_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_1_50"/>
+			<m_ObjectName text="dessert_1_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_1_64"/>
+			<m_ObjectName text="dessert_1_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_2_256"/>
+			<m_ObjectName text="dessert_2_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_2_38"/>
+			<m_ObjectName text="dessert_2_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_2_50"/>
+			<m_ObjectName text="dessert_2_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_2_64"/>
+			<m_ObjectName text="dessert_2_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_3_256"/>
+			<m_ObjectName text="dessert_3_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_3_38"/>
+			<m_ObjectName text="dessert_3_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_3_50"/>
+			<m_ObjectName text="dessert_3_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_3_64"/>
+			<m_ObjectName text="dessert_3_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_4_256"/>
+			<m_ObjectName text="dessert_4_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_4_38"/>
+			<m_ObjectName text="dessert_4_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_4_50"/>
+			<m_ObjectName text="dessert_4_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_4_64"/>
+			<m_ObjectName text="dessert_4_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_5_256"/>
+			<m_ObjectName text="dessert_5_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_5_38"/>
+			<m_ObjectName text="dessert_5_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_5_50"/>
+			<m_ObjectName text="dessert_5_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_5_64"/>
+			<m_ObjectName text="dessert_5_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_6_256"/>
+			<m_ObjectName text="dessert_6_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_6_38"/>
+			<m_ObjectName text="dessert_6_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_6_50"/>
+			<m_ObjectName text="dessert_6_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="dessert_6_64"/>
+			<m_ObjectName text="dessert_6_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DessertHouse_128"/>
+			<m_ObjectName text="DessertHouse_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DessertHouse_256"/>
+			<m_ObjectName text="DessertHouse_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DessertHouse_32"/>
+			<m_ObjectName text="DessertHouse_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DessertHouse_38"/>
+			<m_ObjectName text="DessertHouse_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DessertHouse_50"/>
+			<m_ObjectName text="DessertHouse_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DessertHouse_80"/>
+			<m_ObjectName text="DessertHouse_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyCo_128"/>
+			<m_ObjectName text="FairyCo_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyCo_256"/>
+			<m_ObjectName text="FairyCo_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyCo_32"/>
+			<m_ObjectName text="FairyCo_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyCo_38"/>
+			<m_ObjectName text="FairyCo_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyCo_50"/>
+			<m_ObjectName text="FairyCo_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyCo_80"/>
+			<m_ObjectName text="FairyCo_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_22"/>
+			<m_ObjectName text="FairyQueendom_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_256"/>
+			<m_ObjectName text="FairyQueendom_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_30"/>
+			<m_ObjectName text="FairyQueendom_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_36"/>
+			<m_ObjectName text="FairyQueendom_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_44"/>
+			<m_ObjectName text="FairyQueendom_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_45"/>
+			<m_ObjectName text="FairyQueendom_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_48"/>
+			<m_ObjectName text="FairyQueendom_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_50"/>
+			<m_ObjectName text="FairyQueendom_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_64"/>
+			<m_ObjectName text="FairyQueendom_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_80"/>
+			<m_ObjectName text="FairyQueendom_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FairyQueendom_background"/>
+			<m_ObjectName text="FairyQueendom_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GoddessStatue_128"/>
+			<m_ObjectName text="GoddessStatue_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GoddessStatue_256"/>
+			<m_ObjectName text="GoddessStatue_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GoddessStatue_32"/>
+			<m_ObjectName text="GoddessStatue_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GoddessStatue_38"/>
+			<m_ObjectName text="GoddessStatue_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GoddessStatue_50"/>
+			<m_ObjectName text="GoddessStatue_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GoddessStatue_80"/>
+			<m_ObjectName text="GoddessStatue_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderMsHuman"/>
+			<m_ObjectName text="LeaderMsHuman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MsHumanDiploBackground"/>
+			<m_ObjectName text="MsHumanDiploBackground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MsHumanIcon_256"/>
+			<m_ObjectName text="MsHumanIcon_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MsHumanIcon_32"/>
+			<m_ObjectName text="MsHumanIcon_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MsHumanIcon_45"/>
+			<m_ObjectName text="MsHumanIcon_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MsHumanIcon_50"/>
+			<m_ObjectName text="MsHumanIcon_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MsHumanIcon_55"/>
+			<m_ObjectName text="MsHumanIcon_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MsHumanIcon_64"/>
+			<m_ObjectName text="MsHumanIcon_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MsHumanIcon_80"/>
+			<m_ObjectName text="MsHumanIcon_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MsHumanLoadingForeground"/>
+			<m_ObjectName text="MsHumanLoadingForeground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairies_22"/>
+			<m_ObjectName text="TheFairies_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairies_256"/>
+			<m_ObjectName text="TheFairies_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairies_32"/>
+			<m_ObjectName text="TheFairies_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairies_38"/>
+			<m_ObjectName text="TheFairies_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairies_50"/>
+			<m_ObjectName text="TheFairies_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairies_80"/>
+			<m_ObjectName text="TheFairies_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairiesPortrait_200"/>
+			<m_ObjectName text="TheFairiesPortrait_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairiesPortrait_256"/>
+			<m_ObjectName text="TheFairiesPortrait_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairiesPortrait_38"/>
+			<m_ObjectName text="TheFairiesPortrait_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairiesPortrait_50"/>
+			<m_ObjectName text="TheFairiesPortrait_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairiesPortrait_70"/>
+			<m_ObjectName text="TheFairiesPortrait_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheFairiesPortrait_95"/>
+			<m_ObjectName text="TheFairiesPortrait_95"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

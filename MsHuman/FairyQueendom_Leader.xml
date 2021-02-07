@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Colors>
+		<Row Type="COLOR_PLAYER_LEADER_MS_HUMAN_PRIMARY" Red="1" Green="0.7529" Blue="0.7961" Alpha="1"/>
+		<Row Type="COLOR_PLAYER_LEADER_MS_HUMAN_SECONDARY" Red="0" Green="0" Blue="0" Alpha="0"/>
+	</Colors>
+	<PlayerColors>
+		<Row Type="LEADER_MS_HUMAN" Usage="Unique" PrimaryColor="COLOR_PLAYER_LEADER_MS_HUMAN_PRIMARY" SecondaryColor="COLOR_PLAYER_LEADER_MS_HUMAN_SECONDARY" TextColor="COLOR_PLAYER_WHITE_TEXT"/>
+	</PlayerColors>
+	<Types>
+		<Row Type="LEADER_MS_HUMAN" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_INSIDE_PINK_ITS_ALL_BLACK" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_BUILDING_DESSERT_HOUSE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_BUILDING_GODDESS_STATUE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_AGENDA_UNITED_NATIONS_ARBITRATOR" Kind="KIND_TRAIT" />
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_MS_HUMAN" 
+			 Name="LOC_LEADER_MS_HUMAN_NAME" 
+			 InheritFrom="LEADER_DEFAULT"
+			 SceneLayers="4"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_MS_HUMAN" Quote="LOC_LEADER_MS_HUMAN_QUOTE"/>
+	</LeaderQuotes>
+	<Agendas>
+		<Row AgendaType="AGENDA_UNITED_NATIONS_ARBITRATOR" 
+			 Name="LOC_AGENDA_UNITED_NATIONS_ARBITRATOR_NAME" 
+			 Description="LOC_AGENDA_UNITED_NATIONS_ARBITRATOR_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_MS_HUMAN" AgendaType="AGENDA_UNITED_NATIONS_ARBITRATOR"/>
+	</HistoricalAgendas>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MS_HUMAN" TraitType="TRAIT_LEADER_BUILDING_DESSERT_HOUSE"/>
+		<Row LeaderType="LEADER_MS_HUMAN" TraitType="TRAIT_LEADER_BUILDING_GODDESS_STATUE"/>
+		<Row LeaderType="LEADER_MS_HUMAN" TraitType="TRAIT_INSIDE_PINK_ITS_ALL_BLACK"/>
+		<Row LeaderType="LEADER_MS_HUMAN" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+	</LeaderTraits>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_UNITED_NATIONS_ARBITRATOR" TraitType="TRAIT_AGENDA_UNITED_NATIONS_ARBITRATOR"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_UNITED_NATIONS_ARBITRATOR" AgendaTwo="AGENDA_TECHNOPHILE"/>
+	</ExclusiveAgendas>
+	<Traits>
+		<Row TraitType="TRAIT_INSIDE_PINK_ITS_ALL_BLACK" Name="LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_NAME" Description="LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_DESSERT_HOUSE" Name="LOC_TRAIT_LEADER_BUILDING_DESSERT_HOUSE_NAME"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_GODDESS_STATUE" Name="LOC_TRAIT_LEADER_BUILDING_GODDESS_STATUE_NAME"/>
+		<Row TraitType="TRAIT_AGENDA_UNITED_NATIONS_ARBITRATOR" Name="LOC_AGENDA_UNITED_NATIONS_ARBITRATOR_NAME" Description="LOC_AGENDA_UNITED_NATIONS_ARBITRATOR_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_INSIDE_PINK_ITS_ALL_BLACK" ModifierId="MSHUMAN_ADD_VISIBILITY"/>
+		<Row TraitType="TRAIT_AGENDA_UNITED_NATIONS_ARBITRATOR" ModifierId="AGENDA_MODIFIER_NOT_WARMONGER"/>
+		<Row TraitType="TRAIT_AGENDA_UNITED_NATIONS_ARBITRATOR" ModifierId="AGENDA_MODIFIER_WARMONGER"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row ModifierId="MSHUMAN_ADD_VISIBILITY" ModifierType="MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MSHUMAN_ADD_VISIBILITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MSHUMAN_ADD_VISIBILITY</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_TRAIT</Value>
+		</Row>
+	</ModifierArguments>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_MS_HUMAN" ForegroundImage="MsHumanLoadingForeground" BackgroundImage="FairyQueendom_background" LeaderText="LOC_LEADER_MS_HUMAN_LOADING_INFO" PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+
+	<DiplomacyInfo>
+		<Row Type="LEADER_MS_HUMAN" BackgroundImage="MsHumanDiploBackground"/>
+	</DiplomacyInfo>
+</GameData>

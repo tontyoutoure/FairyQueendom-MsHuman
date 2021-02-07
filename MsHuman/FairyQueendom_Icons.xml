@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_DISTRICT_FAIRYCO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="FairyCo_256.dds"/>
+		<Row Name="ATLAS_DISTRICT_FAIRYCO" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="FairyCo_128.dds"/>
+		<Row Name="ATLAS_DISTRICT_FAIRYCO" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="FairyCo_80.dds"/>
+		<Row Name="ATLAS_DISTRICT_FAIRYCO" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="FairyCo_50.dds"/>
+		<Row Name="ATLAS_DISTRICT_FAIRYCO" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="FairyCo_38.dds"/>
+		<Row Name="ATLAS_DISTRICT_FAIRYCO" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="FairyCo_32.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES_PORTRAIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="THE_FAIRIES_256.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES_PORTRAIT" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="THE_FAIRIES_200.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES_PORTRAIT" IconSize="95" IconsPerRow="1" IconsPerColumn="1" Filename="THE_FAIRIES_95.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES_PORTRAIT" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="THE_FAIRIES_70.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES_PORTRAIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="THE_FAIRIES_50.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES_PORTRAIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="THE_FAIRIES_38.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="TheFairies_256.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="TheFairies_80.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="TheFairies_50.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="TheFairies_38.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="TheFairies_32.dds"/>
+		<Row Name="ATLAS_UNIT_THE_FAIRIES" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="TheFairies_22.dds"/>
+		<Row Name="ATLAS_BUILDING_DESSERT_HOUSE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="DessertHouse_256.dds"/>
+		<Row Name="ATLAS_BUILDING_DESSERT_HOUSE" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="DessertHouse_128.dds"/>
+		<Row Name="ATLAS_BUILDING_DESSERT_HOUSE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="DessertHouse_80.dds"/>
+		<Row Name="ATLAS_BUILDING_DESSERT_HOUSE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="DessertHouse_50.dds"/>
+		<Row Name="ATLAS_BUILDING_DESSERT_HOUSE" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="DessertHouse_38.dds"/>
+		<Row Name="ATLAS_BUILDING_DESSERT_HOUSE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="DessertHouse_32.dds"/>
+		<Row Name="ATLAS_BUILDING_GODDESS_STATUE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="GoddessStatue_256.dds"/>
+		<Row Name="ATLAS_BUILDING_GODDESS_STATUE" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="GoddessStatue_128.dds"/>
+		<Row Name="ATLAS_BUILDING_GODDESS_STATUE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="GoddessStatue_80.dds"/>
+		<Row Name="ATLAS_BUILDING_GODDESS_STATUE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="GoddessStatue_50.dds"/>
+		<Row Name="ATLAS_BUILDING_GODDESS_STATUE" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="GoddessStatue_38.dds"/>
+		<Row Name="ATLAS_BUILDING_GODDESS_STATUE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="GoddessStatue_32.dds"/>
+		<Row Name="ATLAS_LEADER_MS_HUMAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="MsHumanIcon_256.dds"/>
+		<Row Name="ATLAS_LEADER_MS_HUMAN" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="MsHumanIcon_80.dds"/>
+		<Row Name="ATLAS_LEADER_MS_HUMAN" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="MsHumanIcon_64.dds"/>
+		<Row Name="ATLAS_LEADER_MS_HUMAN" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="MsHumanIcon_55.dds"/>
+		<Row Name="ATLAS_LEADER_MS_HUMAN" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="MsHumanIcon_50.dds"/>
+		<Row Name="ATLAS_LEADER_MS_HUMAN" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="MsHumanIcon_45.dds"/>
+		<Row Name="ATLAS_LEADER_MS_HUMAN" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="MsHumanIcon_32.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_256.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_80.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_64.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_50.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_48.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_45.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_44.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_36.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_30.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="FairyQueendom_22.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_1" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_1_256.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_1" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_1_64.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_1" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_1_50.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_1" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_1_38.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_2" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_2_256.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_2" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_2_64.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_2" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_2_50.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_2" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_2_38.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_3" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_3_256.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_3" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_3_64.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_3" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_3_50.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_3" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_3_38.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_4" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_4_256.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_4" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_4_64.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_4" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_4_50.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_4" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_4_38.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_5" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_5_256.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_5" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_5_64.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_5" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_5_50.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_5" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_5_38.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_6" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_6_256.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_6" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_6_64.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_6" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_6_50.dds"/>
+		<Row Name="ATLAS_RESOURCE_DESSERT_6" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="dessert_6_38.dds"/>		
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_DISTRICT_FAIRYCO_FOW"       Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="9"/>
+		<Row Name="ICON_DISTRICT_FAIRYCO"         Atlas="ICON_ATLAS_DISTRICTS" Index="9"/>
+		<Row Name="ICON_UNIT_THE_FAIRIES_PORTRAIT" Atlas="ATLAS_UNIT_THE_FAIRIES_PORTRAIT" Index="0"/>
+		<Row Name="ICON_UNIT_THE_FAIRIES" Atlas="ATLAS_UNIT_THE_FAIRIES" Index="0"/>
+		<Row Name="ICON_BUILDING_DESSERT_HOUSE" Atlas="ATLAS_BUILDING_DESSERT_HOUSE" Index="0"/>
+		<Row Name="ICON_BUILDING_DESSERT_HOUSE_1" Atlas="ATLAS_BUILDING_DESSERT_HOUSE" Index="0"/>
+		<Row Name="ICON_BUILDING_DESSERT_HOUSE_2" Atlas="ATLAS_BUILDING_DESSERT_HOUSE" Index="0"/>
+		<Row Name="ICON_BUILDING_DESSERT_HOUSE_3" Atlas="ATLAS_BUILDING_DESSERT_HOUSE" Index="0"/>
+		<Row Name="ICON_BUILDING_DESSERT_HOUSE_4" Atlas="ATLAS_BUILDING_DESSERT_HOUSE" Index="0"/>
+		<Row Name="ICON_BUILDING_DESSERT_HOUSE_5" Atlas="ATLAS_BUILDING_DESSERT_HOUSE" Index="0"/>
+		<Row Name="ICON_BUILDING_DESSERT_HOUSE_6" Atlas="ATLAS_BUILDING_DESSERT_HOUSE" Index="0"/>
+		<Row Name="ICON_BUILDING_GODDESS_STATUE" Atlas="ATLAS_BUILDING_GODDESS_STATUE" Index="0"/>
+		<Row Name="ICON_LEADER_MS_HUMAN" Atlas="ATLAS_LEADER_MS_HUMAN" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_FAIRY_QUEENDOM" Atlas="ATLAS_CIVILIZATION_FAIRY_QUEENDOM" Index="0"/>
+		<Row Name="ICON_RESOURCE_DESSERT_1" Atlas="ATLAS_RESOURCE_DESSERT_1" Index="0"/>
+		<Row Name="ICON_RESOURCE_DESSERT_2" Atlas="ATLAS_RESOURCE_DESSERT_2" Index="0"/>
+		<Row Name="ICON_RESOURCE_DESSERT_3" Atlas="ATLAS_RESOURCE_DESSERT_3" Index="0"/>
+		<Row Name="ICON_RESOURCE_DESSERT_4" Atlas="ATLAS_RESOURCE_DESSERT_4" Index="0"/>
+		<Row Name="ICON_RESOURCE_DESSERT_5" Atlas="ATLAS_RESOURCE_DESSERT_5" Index="0"/>
+		<Row Name="ICON_RESOURCE_DESSERT_6" Atlas="ATLAS_RESOURCE_DESSERT_6" Index="0"/>
+	</IconDefinitions>
+</GameData>

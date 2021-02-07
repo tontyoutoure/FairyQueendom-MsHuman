@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FAIRY_QUEENDOM</CivilizationType>
+			<LeaderType>LEADER_MS_HUMAN</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_FAIRY_QUEENDOM_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_FAIRY_QUEENDOM</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MS_HUMAN_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MS_HUMAN</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_ONE_NIGHT_CITY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_ONE_NIGHT_CITY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_FAIRY_QUEENDOM</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MS_HUMAN</LeaderAbilityIcon>
+			<Portrait>LeaderMsHuman</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FAIRY_QUEENDOM</CivilizationType>
+			<LeaderType>LEADER_MS_HUMAN</LeaderType>
+			<Type>UNIT_THE_FAIRIES</Type>
+			<Name>LOC_UNIT_THE_FAIRIES_NAME</Name>
+			<Description>LOC_UNIT_THE_FAIRIES_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_THE_FAIRIES</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FAIRY_QUEENDOM</CivilizationType>
+			<LeaderType>LEADER_MS_HUMAN</LeaderType>
+			<Type>DISTRICT_FAIRYCO</Type>
+			<Name>LOC_DISTRICT_FAIRYCO_NAME</Name>
+			<Description>LOC_DISTRICT_FAIRYCO_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_FAIRYCO</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

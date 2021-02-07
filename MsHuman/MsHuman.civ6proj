@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Fairy Queendom - Ms. Human</Name>
+    <Guid>4e9efefc-b1de-493e-ae36-c4a7ff3b2fc5</Guid>
+    <ProjectGuid>fac82f38-c5f2-4faa-8e15-6d8e694689af</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Add Ms Human from Humanity has declined into the game</Teaser>
+    <Description>This civilization specialize in building empire fast. It's downside are it's really fragile.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay_FairyQueendom"><File>FairyQueendom_Civilization.xml</File><File>FairyQueendom_Leader.xml</File><File>FairyQueendom_Buildings.xml</File><File>FairyQueendom_Districts.xml</File><File>FairyQueendom_Units.xml</File></UpdateDatabase><UpdateText id="Text_FairyQueendom"><File>FairyQueendom_text_en_US.sql</File><File>FairyQueendom_text_zh_Hans_CN.xml</File></UpdateText><UpdateIcons id="Icons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="Art_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="Script_FairyQueendom"><File>FairyQueendom_Script.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config_FairyQueendom"><File>FairyQueendom_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText_FairyQueendom"><File>FairyQueendom_text_en_US.sql</File><File>FairyQueendom_text_zh_Hans_CN.xml</File></UpdateText><UpdateIcons id="ConfigIcons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>MsHuman</AssemblyName>
+    <RootNamespace>MsHuman</RootNamespace>
+    <Authors>LI Kun</Authors>
+    <SpecialThanks>Hemmelfort</SpecialThanks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\District.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Script.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_text_en_US.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_text_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MsHuman.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\FairyQueendomDDS.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

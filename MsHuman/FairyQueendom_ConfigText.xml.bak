@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_NAME" Language="en_US">
+			<Text>Fairy Queendoms</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_DESCRIPTION" Language="en_US">
+			<Text>Fairy Queendom</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_ADJECTIVE" Language="en_US">
+			<Text>Fairial</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_MS_HUMAN_NAME" Language="en_US">
+			<Text>Ms. Human</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FAIRY_QUEENDOM_NAME" Language="en_US">
+			<Text>City built in one night</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FAIRY_QUEENDOM_DESCRIPTION" Language="en_US">
+			<Text>May spend builder charges to accelerate construction of districts and wonders. +2 [ICON_PRODUCTION] to each city and citizen. All military units and districts -10 [ICON_Strength].</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_MS_HUMAN_NAME" Language="en_US">
+			<Text>Black inside pink</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MS_HUMAN_DESCRIPTION" Language="en_US">
+			<Text>All units +1 vision. +2 [ICON_VisLimited] Diplomatic Visibility.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_DESSERT_HOUSE_NAME" Language="en_US">
+			<Text>Dessert House</Text>
+		</Row>
+		
+		<Row Tag="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION" Language="en_US">
+			<Text>Replace Granary. +2 [ICON_Amenities] Amenity due to desserts. Unlocks city project "Dessert Making" that could attract The Fairies.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
