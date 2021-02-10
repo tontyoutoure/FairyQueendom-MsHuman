@@ -8,6 +8,9 @@
 		<Row Type="BUILDING_DESSERT_HOUSE_4" Kind="KIND_BUILDING" />
 		<Row Type="BUILDING_DESSERT_HOUSE_5" Kind="KIND_BUILDING" />
 		<Row Type="BUILDING_DESSERT_HOUSE_6" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_DESSERT_HOUSE_DISABLED" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_DESSERT_HOUSE_ENABLED" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_FQ_DUMMY" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_GODDESS_STATUE" Kind="KIND_BUILDING"/>
 		<Row Type="RESOURCE_DESSERT_1" Kind="KIND_RESOURCE"/>
 		<Row Type="RESOURCE_DESSERT_2" Kind="KIND_RESOURCE"/>
@@ -15,6 +18,8 @@
 		<Row Type="RESOURCE_DESSERT_4" Kind="KIND_RESOURCE"/>
 		<Row Type="RESOURCE_DESSERT_5" Kind="KIND_RESOURCE"/>
 		<Row Type="RESOURCE_DESSERT_6" Kind="KIND_RESOURCE"/>
+		<Row Type="PROJECT_DISABLE_GENERATE_FAIRY" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_ENABLE_GENERATE_FAIRY" Kind="KIND_PROJECT"/>
 	</Types>
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_DESSERT_HOUSE" ReplacesBuildingType="BUILDING_GRANARY"/>
@@ -26,7 +31,8 @@
 			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
 			 PrereqDistrict="DISTRICT_CITY_CENTER" 
 			 PurchaseYield="YIELD_GOLD" 
-			 Cost="3.5" 
+			 PrereqTech="TECH_POTTERY"
+			 Cost="35" 
 			 AdvisorType="ADVISOR_GENERIC" 
 			 Housing="2"
 			 TraitType="TRAIT_LEADER_BUILDING_DESSERT_HOUSE"/>
@@ -84,6 +90,26 @@
 			 AdvisorType="ADVISOR_GENERIC"
 			 Housing="2"
 			 EnabledByReligion="true"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_DISABLED"
+			 Name="LOC_BUILDING_DESSERT_HOUSE_NAME"
+			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="35"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Housing="2"
+			 EnabledByReligion="true"/>
+		<Row BuildingType="BUILDING_DESSERT_HOUSE_ENABLED"
+			 Name="LOC_BUILDING_DESSERT_HOUSE_NAME"
+			 Description="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="35"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Housing="2"
+			 EnabledByReligion="true"/>
+
+		<Row BuildingType ="BUILDING_FQ_DUMMY" Name="LOC_BUILDING_FQ_DUMMY_NAME" Cost="0" PrereqDistrict="DISTRICT_CITY_CENTER" EnabledByReligion="true"/>
 		<Row BuildingType="BUILDING_GODDESS_STATUE" 
 			 Name="LOC_BUILDING_GODDESS_STATUE_NAME" 
 			 PrereqDistrict="DISTRICT_CITY_CENTER"
@@ -103,8 +129,8 @@
 	</Building_YieldChanges>
 
 	<MutuallyExclusiveBuildings>
-		<Row Building="BUILDING_DESSERT_HOUSE_1" MutuallyExclusiveBuilding="BUILDING_DESSERT_HOUSE"/>
-		<Row Building="BUILDING_DESSERT_HOUSE" MutuallyExclusiveBuilding="BUILDING_DESSERT_HOUSE_1"/>
+		<Row Building="BUILDING_DESSERT_HOUSE" MutuallyExclusiveBuilding="BUILDING_DESSERT_HOUSE_DISABLED"/>
+		<Row Building="BUILDING_DESSERT_HOUSE" MutuallyExclusiveBuilding="BUILDING_DESSERT_HOUSE_ENABLED"/>
 	</MutuallyExclusiveBuildings>
 		
 	<Modifiers>
@@ -148,4 +174,24 @@
 		<Row ResourceType="RESOURCE_DESSERT_5" Name="LOC_RESOURCE_DESSERT_5_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
 		<Row ResourceType="RESOURCE_DESSERT_6" Name="LOC_RESOURCE_DESSERT_6_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
 	</Resources>
+	<Projects>
+		<Row ProjectType="PROJECT_DISABLE_GENERATE_FAIRY" 
+			 Name="LOC_PROJECT_DISABLE_GENERATE_FAIRY_NAME" 
+			 ShortName="LOC_PROJECT_DISABLE_GENERATE_FAIRY_NAME" 
+			 Description="LOC_PROJECT_DISABLE_GENERATE_FAIRY_DESCRIPTION" 
+			 Cost="1" 
+			 AdvisorType="ADVISOR_GENERIC" 
+			 CostProgressionModel="NO_COST_PROGRESSION"
+			 RequiredBuilding="BUILDING_DESSERT_HOUSE_ENABLED"
+			 CostProgressionParam1="0"/>
+		<Row ProjectType="PROJECT_ENABLE_GENERATE_FAIRY"
+			 Name="LOC_PROJECT_ENABLE_GENERATE_FAIRY_NAME"
+			 ShortName="LOC_PROJECT_ENABLE_GENERATE_FAIRY_NAME"
+			 Description="LOC_PROJECT_ENABLE_GENERATE_FAIRY_DESCRIPTION"
+			 Cost="1"
+			 AdvisorType="ADVISOR_GENERIC"
+			 RequiredBuilding="BUILDING_DESSERT_HOUSE_DISABLED"
+			 CostProgressionModel="NO_COST_PROGRESSION"
+			 CostProgressionParam1="0"/>
+	</Projects>
 </GameData>

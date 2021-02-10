@@ -5,6 +5,8 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_THE_FAIRIES" Kind="KIND_UNIT"/>
+		<Row Type="NOTIFICATION_FAIRY_DIE_RADIO" Kind="KIND_NOTIFICATION"/>
+		<Row Type="NOTIFICATION_FAIRY_DIE_UNHAPPY" Kind="KIND_NOTIFICATION"/>
 	</Types>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_THE_FAIRIES" AiType="UNITAI_BUILD"/>
@@ -36,5 +38,35 @@
 			 TraitType="TRAIT_CIVILIZATION_UNIT_THE_FAIRIES"/>
 	</Units>
 	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_THE_FAIRIES" PrereqBuilding="BUILDING_FQ_DUMMY"/>
 	</Unit_BuildingPrereqs>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_THE_FAIRIES" ReplacesUnitType="UNIT_BUILDER"/>
+	</UnitReplaces>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FARM" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_QUARRY" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" UnitType="UNIT_THE_FAIRIES"/>
+	</Improvement_ValidBuildUnits>
+	<Notifications>
+		<Row NotificationType="NOTIFICATION_FAIRY_DIE_RADIO" SeverityType="HIGH" ExpiresEndOfTurn="True" AutoNotify="False" Message="LOC_NOTIFICATION_FAIRY_DIE_RADIO_MESSAGE" Summary="LOC_NOTIFICATION_FAIRY_DIE_RADIO_SUMMARY"/>
+		<Row NotificationType="NOTIFICATION_FAIRY_DIE_UNHAPPY" SeverityType="HIGH" ExpiresEndOfTurn="True" AutoNotify="False" Message="LOC_NOTIFICATION_FAIRY_DIE_UNHAPPY_MESSAGE" Summary="LOC_NOTIFICATION_FAIRY_DIE_UNHAPPY_SUMMARY"/>
+	</Notifications>
 </GameData>

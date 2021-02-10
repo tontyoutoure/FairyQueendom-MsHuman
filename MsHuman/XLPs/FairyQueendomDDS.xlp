@@ -226,6 +226,22 @@
 			<m_ObjectName text="LeaderMsHuman"/>
 		</Element>
 		<Element>
+			<m_EntryID text="Moment_DessertHouse"/>
+			<m_ObjectName text="Moment_DessertHouse"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_FairyCo"/>
+			<m_ObjectName text="Moment_FairyCo"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_GoddessStatue"/>
+			<m_ObjectName text="Moment_GoddessStatue"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_TheFairies"/>
+			<m_ObjectName text="Moment_TheFairies"/>
+		</Element>
+		<Element>
 			<m_EntryID text="MsHumanDiploBackground"/>
 			<m_ObjectName text="MsHumanDiploBackground"/>
 		</Element>
@@ -260,6 +276,62 @@
 		<Element>
 			<m_EntryID text="MsHumanLoadingForeground"/>
 			<m_ObjectName text="MsHumanLoadingForeground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Disable_TheFairies_generation_256"/>
+			<m_ObjectName text="Project_Disable_TheFairies_generation_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Disable_TheFairies_generation_30"/>
+			<m_ObjectName text="Project_Disable_TheFairies_generation_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Disable_TheFairies_generation_32"/>
+			<m_ObjectName text="Project_Disable_TheFairies_generation_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Disable_TheFairies_generation_38"/>
+			<m_ObjectName text="Project_Disable_TheFairies_generation_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Disable_TheFairies_generation_50"/>
+			<m_ObjectName text="Project_Disable_TheFairies_generation_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Disable_TheFairies_generation_70"/>
+			<m_ObjectName text="Project_Disable_TheFairies_generation_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Disable_TheFairies_generation_80"/>
+			<m_ObjectName text="Project_Disable_TheFairies_generation_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Enable_TheFairies_generation_256"/>
+			<m_ObjectName text="Project_Enable_TheFairies_generation_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Enable_TheFairies_generation_30"/>
+			<m_ObjectName text="Project_Enable_TheFairies_generation_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Enable_TheFairies_generation_32"/>
+			<m_ObjectName text="Project_Enable_TheFairies_generation_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Enable_TheFairies_generation_38"/>
+			<m_ObjectName text="Project_Enable_TheFairies_generation_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Enable_TheFairies_generation_50"/>
+			<m_ObjectName text="Project_Enable_TheFairies_generation_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Enable_TheFairies_generation_70"/>
+			<m_ObjectName text="Project_Enable_TheFairies_generation_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_Enable_TheFairies_generation_80"/>
+			<m_ObjectName text="Project_Enable_TheFairies_generation_80"/>
 		</Element>
 		<Element>
 			<m_EntryID text="TheFairies_22"/>

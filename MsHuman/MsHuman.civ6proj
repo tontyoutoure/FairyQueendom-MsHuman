@@ -13,8 +13,8 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay_FairyQueendom"><File>FairyQueendom_Civilization.xml</File><File>FairyQueendom_Leader.xml</File><File>FairyQueendom_Buildings.xml</File><File>FairyQueendom_Districts.xml</File><File>FairyQueendom_Units.xml</File></UpdateDatabase><UpdateText id="Text_FairyQueendom"><File>FairyQueendom_text_en_US.sql</File><File>FairyQueendom_text_zh_Hans_CN.xml</File></UpdateText><UpdateIcons id="Icons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="Art_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="Script_FairyQueendom"><File>FairyQueendom_Script.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config_FairyQueendom"><File>FairyQueendom_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText_FairyQueendom"><File>FairyQueendom_text_en_US.sql</File><File>FairyQueendom_text_zh_Hans_CN.xml</File></UpdateText><UpdateIcons id="ConfigIcons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay_FairyQueendom"><File>FairyQueendom_Civilization.xml</File><File>FairyQueendom_Leader.xml</File><File>FairyQueendom_Buildings.xml</File><File>FairyQueendom_Districts.xml</File><File>FairyQueendom_Units.xml</File></UpdateDatabase><UpdateText id="Text_FairyQueendom"><File>FairyQueendom_text_en_US.sql</File><File>FairyQueendom_text_zh_Hans_CN.xml</File></UpdateText><UpdateIcons id="Icons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="Art_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="Script_FairyQueendom"><File>FairyQueendom_Script.lua</File></AddGameplayScripts><UpdateColors id="Color_FQ"><File>FairyQueendom_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config_FairyQueendom"><File>FairyQueendom_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText_FairyQueendom"><File>FairyQueendom_text_en_US.sql</File><File>FairyQueendom_text_zh_Hans_CN.xml</File></UpdateText><UpdateIcons id="ConfigIcons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColor_FQ"><File>FairyQueendom_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>MsHuman</AssemblyName>
     <RootNamespace>MsHuman</RootNamespace>
@@ -71,6 +71,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="FairyQueendom_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Colors.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="MsHuman.Art.xml">

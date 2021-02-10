@@ -8,7 +8,7 @@
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_FAIRYCO_NAME" Language="zh_Hans_CN">	<Text>妖精帝国特色区域：妖精社</Text></Replace>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_THE_FAIRIES_NAME" Language="zh_Hans_CN">	<Text>妖精帝国特色单位单位：妖精桑</Text></Replace>
 			<Replace Tag="LOC_TRAIT_ONE_NIGHT_CITY_NAME" Language="zh_Hans_CN">	<Text>一夜城</Text></Replace>
-			<Replace Tag="LOC_TRAIT_ONE_NIGHT_CITY_DESCRIPTION" Language="zh_Hans_CN">	<Text>妖精们鼓起干劲的时候，工作效率是很高的。在建造建筑，奇观和区域时，+15% [ICON_Production] 生产力。可以消耗建造者劳动力的一次劳动力来来推进15%的建造进程。作为代价，建造出来的东西都很不稳固，城市初始生命值减100点，所有单位 -5 [ICON_Strength] 战斗力。</Text></Replace>
+			<Replace Tag="LOC_TRAIT_ONE_NIGHT_CITY_DESCRIPTION" Language="zh_Hans_CN">	<Text>妖精们鼓起干劲的时候，工作效率是很高的。在建造建筑，奇观和区域时，+20% [ICON_Production] 生产力。可以消耗建造者劳动力的一次劳动力来来推进20%的建造进程。然而快速建造出来的东西都很不稳固，所有城市的外部防御减100点，并 -10 [ICON_Strength] 防御力。</Text></Replace>
 			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_1" Language="zh_Hans_CN">	<Text>助手先生</Text></Replace>
 			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_2" Language="zh_Hans_CN">	<Text>爷爷</Text></Replace>
 			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_3" Language="zh_Hans_CN">	<Text>文化局长</Text></Replace>
@@ -18,8 +18,8 @@
 			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_3" Language="zh_Hans_CN">	<Text>卷发</Text></Replace>
 			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_4" Language="zh_Hans_CN">	<Text>花学姐</Text></Replace>
 			<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_5" Language="zh_Hans_CN">	<Text>魔女学姐</Text></Replace>
-			<Replace Tag="LOC_FAIRY_QUEENDOM_HISTORY" Language="zh_Hans_CN">	<Text>人类衰退之后经过了好几个世纪，人类因为不明原因而导致出生率严重下降，未来人类的人口 大幅锐减，不要说发展，连文明的传承都没有办法了，人类正慢慢地退出历史的舞台。而取代人类出现在地球上的则是一种很像童话故事中才会出现的不明生物妖精。妖精的平均身高只有10公分，三头身的妖精们却拥有高度的智慧，而且非常喜欢吃糖果点心。作为最后一届的毕业生的人类小姐毕业之后就回到故乡樟树之里去接续祖父的工作，成为负责斡旋在妖精与人类之间的重要国际公务员“调停官”。虽然如此，由于妖精很少跟人类接触，因此她根本没啥工作可作，因此她想要好好研究妖精的生态。</Text></Replace>
-			<Replace Tag="LOC_CIVINFO_FAIRY_QUEENDOM_HISTORY" Language="zh_Hans_CN">	<Text>人类衰退之后经过了好几个世纪，人类因为不明原因而导致出生率严重下降，未来人类的人口 大幅锐减，不要说发展，连文明的传承都没有办法了，人类正慢慢地退出历史的舞台。而取代人类出现在地球上的则是一种很像童话故事中才会出现的不明生物妖精。妖精的平均身高只有10公分，三头身的妖精们却拥有高度的智慧，而且非常喜欢吃糖果点心。作为最后一届的毕业生的人类小姐毕业之后就回到故乡樟树之里去接续祖父的工作，成为负责斡旋在妖精与人类之间的重要国际公务员“调停官”。虽然如此，由于妖精很少跟人类接触，因此她根本没啥工作可作，因此她想要好好研究妖精的生态。</Text></Replace>
+			<Replace Tag="LOC_FAIRY_QUEENDOM_HISTORY" Language="zh_Hans_CN">	<Text>人类衰退之后经过了好几个世纪，人类因为不明原因而导致出生率严重下降，未来人类的人口 大幅锐减，不要说发展，连文明的传承都没有办法了，人类正慢慢地退出历史的舞台。而取代人类出现在地球上的则是一种很像童话故事中才会出现的不明生物妖精。妖精的平均身高只有10公分，三头身的妖精们却拥有高度的智慧，而且非常喜欢吃糖果点心。作为最后一届的毕业生的人类小姐毕业之后就回到故乡樟树之里去接续祖父的工作，成为负责斡旋在妖精与人类之间的重要国际公务员“调停官”。虽然如此，由于妖精很少跟人类接触，因此她根本没啥工作可作。一天，她随妖精们漂流到了一个小岛上，自此发现了这些神奇生物作为国民的出众之处。</Text></Replace>
+			<Replace Tag="LOC_CIVINFO_FAIRY_QUEENDOM_HISTORY" Language="zh_Hans_CN">	<Text>人类衰退之后经过了好几个世纪，人类因为不明原因而导致出生率严重下降，未来人类的人口 大幅锐减，不要说发展，连文明的传承都没有办法了，人类正慢慢地退出历史的舞台。而取代人类出现在地球上的则是一种很像童话故事中才会出现的不明生物妖精。妖精的平均身高只有10公分，三头身的妖精们却拥有高度的智慧，而且非常喜欢吃糖果点心。作为最后一届的毕业生的人类小姐毕业之后就回到故乡樟树之里去接续祖父的工作，成为负责斡旋在妖精与人类之间的重要国际公务员“调停官”。虽然如此，由于妖精很少跟人类接触，因此她根本没啥工作可作。一天，她随妖精们漂流到了一个小岛上，自此发现了这些神奇生物作为国民的出众之处。</Text></Replace>
 			<Replace Tag="LOC_FAIRY_QUEENDOM_POPULATION" Language="zh_Hans_CN">	<Text>不定。</Text></Replace>
 			<Replace Tag="LOC_CIVINFO_FAIRY_QUEENDOM_POPULATION" Language="zh_Hans_CN">	<Text>不定。</Text></Replace>
 			<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_2" Language="zh_Hans_CN">	<Text>调停官之屋</Text></Replace>
@@ -43,11 +43,11 @@
 			<Replace Tag="LOC_RESOURCE_DESSERT_6_NAME" Language="zh_Hans_CN">	<Text>甜圈圈</Text></Replace>
 			<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_NAME" Language="zh_Hans_CN">	<Text>妖精帝国</Text></Replace>
 			<Replace Tag="LOC_LEADER_MS_HUMAN_NAME" Language="zh_Hans_CN">	<Text>人类小姐</Text></Replace>
-			<Replace Tag="LOC_LEADER_MS_HUMAN_LOADING_INFO"Language="zh_Hans_CN"><Text>人类小姐</Text></Replace>
+			<Replace Tag="LOC_LEADER_MS_HUMAN_LOADING_INFO" Language="zh_Hans_CN"><Text>人类衰退之后经过了好几个世纪，人类因为不明原因而导致出生率严重下降，未来人类的人口 大幅锐减，不要说发展，连文明的传承都没有办法了，人类正慢慢地退出历史的舞台。而取代人类出现在地球上的则是一种很像童话故事中才会出现的不明生物妖精。妖精的平均身高只有10公分，三头身的妖精们却拥有高度的智慧，而且非常喜欢吃糖果点心。作为最后一届的毕业生的人类小姐毕业之后就回到故乡樟树之里去接续祖父的工作，成为负责斡旋在妖精与人类之间的重要国际公务员“调停官”。虽然如此，由于妖精很少跟人类接触，因此她根本没啥工作可作。一天，她随妖精们漂流到了一个小岛上，自此发现了这些神奇生物作为国民的出众之处。</Text></Replace>
 			<Replace Tag="LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_NAME" Language="zh_Hans_CN">	<Text>粉红切开都是黑的</Text></Replace>
 			<Replace Tag="LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_DESCRIPTION" Language="zh_Hans_CN">	<Text>在可爱的外表下面，人类小姐实际上拥有一颗腹黑的心。不过好在她也不会用来干坏事，她只是能够看穿别人外表下的真实想法罢了。+2 [ICON_VisLimited] 外交可见度。</Text></Replace>
 			<Replace Tag="LOC_UNIT_THE_FAIRIES_NAME" Language="zh_Hans_CN">	<Text>妖精桑</Text></Replace>
-			<Replace Tag="LOC_UNIT_THE_FAIRIES_DESCRIPTION" Language="zh_Hans_CN">	<Text>替代建造者。无法被建造，只有一次行动力。只会被奢侈品（尤其是点心！）和同伴吸引而来。在不快乐的城市以及电波附近（无线电台）3格内，会逐渐失去活力，慢慢损失生命值。</Text></Replace>
+			<Replace Tag="LOC_UNIT_THE_FAIRIES_DESCRIPTION" Language="zh_Hans_CN">	<Text>替代建造者。无法被建造，只有一次行动力。只会被奢侈品（尤其是点心！）和同伴吸引而来。每回合生成的妖精桑数等于0.2*点心数+0.1*奢侈品数+0.02*已有妖精桑数。只有积攒的妖精桑生成数大于等于可生成妖精桑的城市（必须拥有点心小屋）时，才会在每个城市平均的生成妖精桑。在不快乐的城市附近3格内，会逐渐失去活力，慢慢损失生命值。在广播中心附近3格内，会直接因为无线电波消失。</Text></Replace>
 			<Replace Tag="LOC_DISTRICT_FAIRYCO_NAME" Language="zh_Hans_CN">	<Text>妖精社</Text></Replace>
 			<Replace Tag="LOC_DISTRICT_FAIRYCO_DESCRIPTION" Language="zh_Hans_CN">	<Text>替代工厂区。可以有力地支持城镇的发展以及食物供给。与城镇中心拥有大量的临近加成，并提供和 [ICON_Production] 产能加成相同的 [ICON_Food] 食物加成。内部的建筑无需要专家来操作即可提供和专家槽占满时一样的 [ICON_Production] 生产力，并提供生产力等量的食物 [ICON_Food]。因为很可疑，会造成周围居民的不安，会每回合-10忠诚度。</Text></Replace>
 			<Replace Tag="LOC_DISTRICT_MINE_FOOD" Language="zh_Hans_CN">	<Text>+{1_num} [ICON_Food] 食物来自相邻{1_Num : plural 1?矿山; other?矿山;}。</Text></Replace>
@@ -60,6 +60,30 @@
 			<Replace Tag="LOC_AGENDA_UNITED_NATIONS_ARBITRATOR_DESCRIPTION" Language="zh_Hans_CN">	<Text>讨厌发动战争的文明，喜欢不发动战争的文明。</Text></Replace>
 			<Replace Tag="LOC_TRAIT_LEADER_BUILDING_DESSERT_HOUSE_NAME" Language="zh_Hans_CN">	<Text>人类小姐特色建筑：点心制作小屋</Text></Replace>
 			<Replace Tag="LOC_TRAIT_LEADER_BUILDING_GODDESS_STATUE_NAME" Language="zh_Hans_CN">	<Text>人类小姐特色建筑：妖精女神像</Text></Replace>
+			<Replace Tag="LOC_PROJECT_DISABLE_GENERATE_FAIRY_NAME" Language="zh_Hans_CN">
+				<Text>停止产生妖精桑</Text>
+			</Replace>
+			<Replace Tag="LOC_PROJECT_DISABLE_GENERATE_FAIRY_DESCRIPTION" Language="zh_Hans_CN">
+				<Text>停止在这座城市产生妖精桑。停止生成后，妖精桑的最多库存会达到1个。</Text>
+			</Replace>
+			<Replace Tag="LOC_PROJECT_ENABLE_GENERATE_FAIRY_NAME" Language="zh_Hans_CN">
+				<Text>允许产生妖精桑</Text>
+			</Replace>
+			<Replace Tag="LOC_PROJECT_ENABLE_GENERATE_FAIRY_DESCRIPTION" Language="zh_Hans_CN">
+				<Text>允许这座城市产生妖精桑。</Text>
+			</Replace>
+			<Replace Tag="LOC_NOTIFICATION_FAIRY_DIE_RADIO_MESSAGE" Language="zh_Hans_CN">
+				<Text>妖精桑消失</Text>
+			</Replace>
+			<Replace Tag="LOC_NOTIFICATION_FAIRY_DIE_RADIO_SUMMARY" Language="zh_Hans_CN">
+				<Text>妖精桑因为附近的广播中心发射的无线电而消失了。</Text>
+			</Replace>
+			<Replace Tag="LOC_NOTIFICATION_FAIRY_DIE_UNHAPPY_MESSAGE" Language="zh_Hans_CN">
+				<Text>妖精桑消失</Text>
+			</Replace>
+			<Replace Tag="LOC_NOTIFICATION_FAIRY_DIE_UNHAPPY_SUMMARY" Language="zh_Hans_CN">
+				<Text>妖精桑因为附近的不快乐城市而消失了。</Text>
+			</Replace>
 
 		</LocalizedText>
 	</GameData>

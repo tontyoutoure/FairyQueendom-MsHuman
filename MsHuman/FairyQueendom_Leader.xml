@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Colors>
-		<Row Type="COLOR_PLAYER_LEADER_MS_HUMAN_PRIMARY" Red="1" Green="0.7529" Blue="0.7961" Alpha="1"/>
-		<Row Type="COLOR_PLAYER_LEADER_MS_HUMAN_SECONDARY" Red="0" Green="0" Blue="0" Alpha="0"/>
-	</Colors>
-	<PlayerColors>
-		<Row Type="LEADER_MS_HUMAN" Usage="Unique" PrimaryColor="COLOR_PLAYER_LEADER_MS_HUMAN_PRIMARY" SecondaryColor="COLOR_PLAYER_LEADER_MS_HUMAN_SECONDARY" TextColor="COLOR_PLAYER_WHITE_TEXT"/>
-	</PlayerColors>
 	<Types>
 		<Row Type="LEADER_MS_HUMAN" Kind="KIND_LEADER" />
 		<Row Type="TRAIT_INSIDE_PINK_ITS_ALL_BLACK" Kind="KIND_TRAIT" />
@@ -69,6 +62,11 @@
 			<ModifierId>MSHUMAN_ADD_VISIBILITY</ModifierId>
 			<Name>Source</Name>
 			<Value>SOURCE_TRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MSHUMAN_ADD_VISIBILITY</ModifierId>
+			<Name>SourceType</Name>
+			<Value>DIPLO_SOURCE_ALL_NAMES</Value>
 		</Row>
 	</ModifierArguments>
 	<LoadingInfo>
