@@ -39,6 +39,26 @@
 			<Icon>ICON_DISTRICT_FAIRYCO</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FAIRY_QUEENDOM</CivilizationType>
+			<LeaderType>LEADER_MS_HUMAN</LeaderType>
+			<Type>BUILDING_DESSERT_HOUSE</Type>
+			<Name>LOC_BUILDING_DESSERT_HOUSE_NAME</Name>
+			<Description>LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_DESSERT_HOUSE</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FAIRY_QUEENDOM</CivilizationType>
+			<LeaderType>LEADER_MS_HUMAN</LeaderType>
+			<Type>BUILDING_GODDESS_STATUE</Type>
+			<Name>LOC_BUILDING_GODDESS_STATUE_NAME</Name>
+			<Description>LOC_BUILDING_GODDESS_STATUE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_GODDESS_STATUE</Icon>
+			<SortIndex>40</SortIndex>
+		</Row>
 	</PlayerItems>
 
 </GameData>

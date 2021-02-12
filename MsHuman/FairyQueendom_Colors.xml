@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: LI Kun -->
+<!-- DateCreated: 2021-2-8 2:07:18 AM -->
+<GameData>
+	<Colors>
+		<Row Type="COLOR_PLAYER_LEADER_MS_HUMAN_PINK" Color="255,192,203,255"/>
+	</Colors>
+	<PlayerColors>
+		<Row Type="LEADER_MS_HUMAN" Usage="Unique" PrimaryColor="COLOR_PLAYER_LEADER_MS_HUMAN_PINK" SecondaryColor="COLOR_BLACK"/>
+	</PlayerColors>
+</GameData>

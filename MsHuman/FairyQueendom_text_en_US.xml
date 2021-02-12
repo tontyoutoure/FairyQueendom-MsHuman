@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_NAME" Language="en_US">
+			<Text>Fairy Queendom</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_DESCRIPTION" Language="en_US">
+			<Text>Fairy Queendom</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_ADJECTIVE" Language="en_US">
+			<Text>Fairiary</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_1" Language="en_US">
+			<Text>Camphorwood Villiage</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_FAIRYCO_NAME" Language="en_US">
+			<Text>Fairy unique district: Fairy Co.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_THE_FAIRIES_NAME" Language="en_US">
+			<Text>Fairy unique district: The Fairies</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_ONE_NIGHT_CITY_NAME" Language="en_US">
+			<Text>City Built in One Day</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_ONE_NIGHT_CITY_DESCRIPTION" Language="en_US">
+			<Text>The fairies are very productive when they're energetic. +20% [ICON_Production] production when constructing buildings, districts and wonders. When building wonders and districts you may spend Builder charges to complete 20% of the original wonder cost. However, anything built quickly is very unstable, and the exterior garrison health of all cities is reduced by 100 points, and -10 [ICON_Strength] city strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_1" Language="en_US">
+			<Text>Assistant</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_2" Language="en_US">
+			<Text>Grandfather</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_3" Language="en_US">
+			<Text>Cultural Director</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_4" Language="en_US">
+			<Text>Voyager</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_1" Language="en_US">
+			<Text>Y</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_2" Language="en_US">
+			<Text>Pioneer</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_3" Language="en_US">
+			<Text>Curly</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_4" Language="en_US">
+			<Text>Flower Senpei</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_FEMALE_5" Language="en_US">
+			<Text>Witch Senpei</Text>
+		</Replace>
+		<Replace Tag="LOC_FAIRY_QUEENDOM_HISTORY" Language="en_US">
+			<Text>After centuries of human decline, the human birth rate has declined severely for unknown reasons, and the future human population has plummeted, not to mention development, even the succession of civilization is no longer possible, and humans are slowly exiting the stage of history. And what replaced humans on Earth is a kind of unidentified creatures that look like fairy only appear in fairy tales. The average height of the fairy is only 10 centimeters, but the three-headed fairies have a high degree of intelligence, and are very fond of eating candy and desserts. After graduating as the last class of the graduates, Ms. Human returned to her hometown of Camphorwood Villiage to take over her grandfather's work and became an important international civil servant "mediator" responsible for mediating between fairies and humans. However, because fairies rarely come into contact with humans, she has little work to do. One day, she drifted with the fairies to a small island, and since then discovered the excellence of these magical creatures as nationals.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_FAIRY_QUEENDOM_HISTORY" Language="en_US">
+			<Text>After centuries of human decline, the human birth rate has declined severely for unknown reasons, and the future human population has plummeted, not to mention development, even the succession of civilization is no longer possible, and humans are slowly exiting the stage of history. And what replaced humans on Earth is a kind of unidentified creatures that look like fairy only appear in fairy tales. The average height of the fairy is only 10 centimeters, but the three-headed fairies have a high degree of intelligence, and are very fond of eating candy and desserts. After graduating as the last class of the graduates, Ms. Human returned to her hometown of Camphorwood Villiage to take over her grandfather's work and became an important international civil servant "mediator" responsible for mediating between fairies and humans. However, because fairies rarely come into contact with humans, she has little work to do. One day, she drifted with the fairies to a small island, and since then discovered the excellence of these magical creatures as nationals.</Text>
+		</Replace>
+		<Replace Tag="LOC_FAIRY_QUEENDOM_POPULATION" Language="en_US">
+			<Text>Undermined.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_FAIRY_QUEENDOM_POPULATION" Language="en_US">
+			<Text>Undermined.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_2" Language="en_US">
+			<Text>House of Mediator</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_3" Language="en_US">
+			<Text>Integrated Cultural Center</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_4" Language="en_US">
+			<Text>Fairy Co. Headquarter</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_5" Language="en_US">
+			<Text>Dojin Printing Press</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_6" Language="en_US">
+			<Text>City of Cookies</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_7" Language="en_US">
+			<Text>City of Cakes</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_8" Language="en_US">
+			<Text>City of Chocolates</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_9" Language="en_US">
+			<Text>Gakuen</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_10" Language="en_US">
+			<Text>Power storage facility</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DESSERT_HOUSE_NAME" Language="en_US">
+			<Text>Dessert House</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DESSERT_HOUSE_DESCRIPTION" Language="en_US">
+			<Text>The place where Ms. Human makes delicious desserts, replacing the Granary. Depending on the ingredients of each place only local unique desserts can be made. The first six established dessert house will offer one of six dessert luxuries, which +6 [ICON_Amenities] amenities.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GODDESS_STATUE_NAME" Language="en_US">
+			<Text>Goddess Statue</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GODDESS_STATUE_DESCRIPTION" Language="en_US">
+			<Text>Statuse the fairies made for Ms. Human. Replace Monument. Provides +2 extra [ICON_Faith] faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_DESSERT_1_NAME" Language="en_US">
+			<Text>Cake</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_DESSERT_2_NAME" Language="en_US">
+			<Text>Cookie</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_DESSERT_3_NAME" Language="en_US">
+			<Text>Fruit Tart</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_DESSERT_4_NAME" Language="en_US">
+			<Text>Macaroon</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_DESSERT_5_NAME" Language="en_US">
+			<Text>Waffles</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_DESSERT_6_NAME" Language="en_US">
+			<Text>Donuts</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_NAME" Language="en_US">
+			<Text>Fairy Queendom</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_MS_HUMAN_NAME" Language="en_US">
+			<Text>Ms. Human</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_MS_HUMAN_LOADING_INFO" Language="en_US">
+			<Text>After centuries of human decline, the human birth rate has declined severely for unknown reasons, and the future human population has plummeted, not to mention development, even the succession of civilization is no longer possible, and humans are slowly exiting the stage of history. And what replaced humans on Earth is a kind of unidentified creatures that look like fairy only appear in fairy tales. The average height of the fairy is only 10 centimeters, but the three-headed fairies have a high degree of intelligence, and are very fond of eating candy and desserts. After graduating as the last class of the graduates, Ms. Human returned to her hometown of Camphorwood Villiage to take over her grandfather's work and became an important international civil servant "mediator" responsible for mediating between fairies and humans. However, because fairies rarely come into contact with humans, she has little work to do. One day, she drifted with the fairies to a small island, and since then discovered the excellence of these magical creatures as nationals.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_NAME" Language="en_US">
+			<Text>Inside Pink, it's All Black</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_INSIDE_PINK_ITS_ALL_BLACK_DESCRIPTION" Language="en_US">
+			<Text>Inside her pretty looking, Ms. Human has a harakuro character. Fortunately she don't do bad things with it. She is just able to see through people's real thoughts underneath the facade. +2 [ICON_VisLimited] Diplomatic visibility.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_THE_FAIRIES_NAME" Language="en_US">
+			<Text>The Fairies</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_THE_FAIRIES_DESCRIPTION" Language="en_US">
+			<Text>Replaces Builder. Can't be built and has only one charge. Will only be attracted by luxury items (especially desserts!) and companions. The number of The Fairies generated per turn is equal to 0.2*number of desserts + 0.1*number of other luxury resources+ 0.02*number of existing fairies. The Fairies will only be generated in each city if the number of The Fairies to be generated is greater than the number of cities that can generate The Fairies (must have a Dessert House). Within 3 grid of an unhappy city, it will gradually lose vitality and slowly lose life value. Within 3 grid near a broadcasting center, it will disappear directly due to radio waves. Can parachute, since they come and go without trace.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FAIRYCO_NAME" Language="en_US">
+			<Text>Fairy Co.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FAIRYCO_DESCRIPTION" Language="en_US">
+			<Text>Replaces Industrial Districts. Can strongly support the development of the town and its food supply. Has a large proximity bonus to the city center and provides the same [ICON_Food] food bonus as the [ICON_Production] production bonus. The internal buildings do not require an expert to operate to provide the same [ICON_Production] productivity as when the expert slot is full, and provide the same amount of food [ICON_Food] as productivity. Because it is suspicious, it will cause uneasiness to the surrounding inhabitants, and will be -10 loyalty per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MINE_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from nearby {1_Num : plural 1?mine; other?mines;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUARRY_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from nearby {1_Num : plural 1?qurry; other?qurries;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DISTRICT_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_Production] production from nearby{1_Num : plural 1?District; other?Districts;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FAIRYCO_CITY_CENTER_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] production from nearby city center.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FAIRYCO_CITY_CENTER_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_Food] food from nearby city center.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_MS_HUMAN_QUOTE" Language="en_US">
+			<Text>Hide, Manipulate, Intimidate</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_UNITED_NATIONS_ARBITRATOR_NAME" Language="en_US">
+			<Text>UN Mediator</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_UNITED_NATIONS_ARBITRATOR_DESCRIPTION" Language="en_US">
+			<Text>Hates civilization waging war. Likes civilizations that does not wage war.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_DESSERT_HOUSE_NAME" Language="en_US">
+			<Text>Ms. Human unique building: Dessert House</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_GODDESS_STATUE_NAME" Language="en_US">
+			<Text>Ms. Human unique building: Goddess Statue</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DISABLE_GENERATE_FAIRY_NAME" Language="en_US">
+			<Text>Stop generating The Fairies</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DISABLE_GENERATE_FAIRY_DESCRIPTION" Language="en_US">
+			<Text>Stop generating The Fairies in this city. After stopping the generation, the maximum inventory of The Fairies will reach 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENABLE_GENERATE_FAIRY_NAME" Language="en_US">
+			<Text>Allow generating The Fairies</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENABLE_GENERATE_FAIRY_DESCRIPTION" Language="en_US">
+			<Text>Allow this city to generates The Fairies.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_DIE_RADIO_MESSAGE" Language="en_US">
+			<Text>The Fairies disappeared.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_DIE_RADIO_SUMMARY" Language="en_US">
+			<Text>The Fairies disappeared due to radio wave from a nearby broadcasting center.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_DIE_UNHAPPY_MESSAGE" Language="en_US">
+			<Text>The Fairies disappeared.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_DIE_UNHAPPY_SUMMARY" Language="en_US">
+			<Text>The Fairies disappeared because of the unhappy city nearby.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_TURN_MESSAGE" Language="en_US">
+			<Text>Turns For The Faires To Generate</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_1_TURN_SUMMARY" Language="en_US">
+			<Text>1 turn before The Faires To Generate.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_2_TURN_SUMMARY" Language="en_US">
+			<Text>2 turn before The Faires To Generate.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_3_TURN_SUMMARY" Language="en_US">
+			<Text>3 turn before The Faires To Generate.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_4_TURN_SUMMARY" Language="en_US">
+			<Text>4 turn before The Faires To Generate.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_5_TURN_SUMMARY" Language="en_US">
+			<Text>5 turn before The Faires To Generate.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_10_TURN_SUMMARY" Language="en_US">
+			<Text>10 turn before The Faires To Generate.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_20_TURN_SUMMARY" Language="en_US">
+			<Text>20 turn before The Faires To Generate.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_30_TURN_SUMMARY" Language="en_US">
+			<Text>30 turn before The Faires To Generate.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_40_TURN_SUMMARY" Language="en_US">
+			<Text>40 turn before The Faires To Generate.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_50_TURN_SUMMARY" Language="en_US">
+			<Text>50 turn before The Faires To Generate.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

@@ -39,13 +39,13 @@
 		<Row ModifierId="TRAIT_FAIRY_DISTRICT" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT"/>
 	</Modifiers>
 	<ModifierArguments>
-		<Row ModifierId="TRAIT_FAIRY_WONDER_PRODUCTION" Name="Amount" Value="15"/>
-		<Row ModifierId="TRAIT_FAIRY_BUILDING_PRODUCTION" Name="Amount" Value="15"/>
-		<Row ModifierId="TRAIT_FAIRY_DISTRICT_PRODUCTION" Name="Amount" Value="15"/>
+		<Row ModifierId="TRAIT_FAIRY_WONDER_PRODUCTION" Name="Amount" Value="20"/>
+		<Row ModifierId="TRAIT_FAIRY_BUILDING_PRODUCTION" Name="Amount" Value="20"/>
+		<Row ModifierId="TRAIT_FAIRY_DISTRICT_PRODUCTION" Name="Amount" Value="20"/>
 		<Row ModifierId="TRAIT_FAIRY_CITY_HP" Name="Amount" Value="-100"/>
 		<Row ModifierId="TRAIT_FAIRY_CITY_DEFENSE" Name="Amount" Value="-10"/>
-		<Row ModifierId="TRAIT_FAIRY_WONDER" Name="Amount" Value="15"/>
-		<Row ModifierId="TRAIT_FAIRY_DISTRICT" Name="Amount" Value="15"/>
+		<Row ModifierId="TRAIT_FAIRY_WONDER" Name="Amount" Value="20"/>
+		<Row ModifierId="TRAIT_FAIRY_DISTRICT" Name="Amount" Value="20"/>
 	</ModifierArguments>
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_FAIRYCO" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_FAIRYCO_NAME"/>
