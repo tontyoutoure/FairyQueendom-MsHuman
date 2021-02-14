@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FairyQueendom_Projects -->
+<!-- Author: LI Kun -->
+<!-- DateCreated: 2021-2-13 5:01:33 PM -->
+<GameData>
+	<Types>
+		<Row Type="PROJECT_DISABLE_GENERATE_FAIRY" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_ENABLE_GENERATE_FAIRY" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_THE_FAIRIES_BUILD_CHARGE_1" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_THE_FAIRIES_BUILD_CHARGE_2" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_THE_FAIRIES_BUILD_CHARGE_3" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_DISABLE_GENERATE_FAIRY"
+			 Name="LOC_PROJECT_DISABLE_GENERATE_FAIRY_NAME"
+			 ShortName="LOC_PROJECT_DISABLE_GENERATE_FAIRY_NAME"
+			 Description="LOC_PROJECT_DISABLE_GENERATE_FAIRY_DESCRIPTION"
+			 Cost="1"
+			 AdvisorType="ADVISOR_GENERIC"
+			 CostProgressionModel="NO_COST_PROGRESSION"
+			 RequiredBuilding="BUILDING_DESSERT_HOUSE_ENABLED"
+			 CostProgressionParam1="0"/>
+		<Row ProjectType="PROJECT_ENABLE_GENERATE_FAIRY"
+			 Name="LOC_PROJECT_ENABLE_GENERATE_FAIRY_NAME"
+			 ShortName="LOC_PROJECT_ENABLE_GENERATE_FAIRY_NAME"
+			 Description="LOC_PROJECT_ENABLE_GENERATE_FAIRY_DESCRIPTION"
+			 Cost="1"
+			 AdvisorType="ADVISOR_GENERIC"
+			 RequiredBuilding="BUILDING_DESSERT_HOUSE_DISABLED"
+			 CostProgressionModel="NO_COST_PROGRESSION"
+			 CostProgressionParam1="0"/>
+		<Row ProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_1"
+			 Name="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_1_NAME"
+			 ShortName="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_1_NAME"
+			 Description="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_1_DESCRIPTION"
+			 Cost="100"
+			 PrereqCivic="CIVIC_STATE_WORKFORCE"
+			 PrereqDistrict="DISTRICT_FAIRYCO"
+			 MaxPlayerInstances="1"/>
+		<Row ProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_2"
+			 Name="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_2_NAME"
+			 ShortName="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_2_NAME"
+			 Description="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_2_DESCRIPTION"
+			 Cost="400"
+			 PrereqCivic="CIVIC_FEUDALISM"
+			 PrereqDistrict="DISTRICT_FAIRYCO"
+			 MaxPlayerInstances="1"/>
+		<Row ProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_3"
+			 Name="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_3_NAME"
+			 ShortName="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_3_NAME"
+			 Description="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_3_DESCRIPTION"
+			 Cost="800"
+			 PrereqCivic="CIVIC_CIVIL_ENGINEERING"
+			 PrereqDistrict="DISTRICT_FAIRYCO"
+			 MaxPlayerInstances="1"/>
+	</Projects>
+	<ProjectPrereqs>
+		<Row ProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_2" PrereqProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_1" MinimumPlayerInstances="1"/>
+		<Row ProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_3" PrereqProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_2" MinimumPlayerInstances="1"/>
+	</ProjectPrereqs>
+	<ProjectCompletionModifiers>
+		<Row ProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_1" ModifierId="PROJECT_FINISH_THE_FAIRIES_ADD_CHARGE_1"/>
+		<Row ProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_2" ModifierId="PROJECT_FINISH_THE_FAIRIES_ADD_CHARGE_2"/>
+		<Row ProjectType="PROJECT_THE_FAIRIES_BUILD_CHARGE_3" ModifierId="PROJECT_FINISH_THE_FAIRIES_ADD_CHARGE_3"/>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>PROJECT_FINISH_THE_FAIRIES_ADD_CHARGE_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_FINISH_THE_FAIRIES_ADD_CHARGE_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_FINISH_THE_FAIRIES_ADD_CHARGE_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PROJECT_FINISH_THE_FAIRIES_ADD_CHARGE_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_FINISH_THE_FAIRIES_ADD_CHARGE_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_FINISH_THE_FAIRIES_ADD_CHARGE_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -29,6 +29,7 @@ local nFairyUnhappyDamage = 30
 local fCostMultiplier = GameInfo.GameSpeeds[GameConfiguration.GetGameSpeedType()].CostMultiplier/100
 
 function Initialize()
+	-- print("multiplier is ", Game.GetProperty("multiplier"))
 	for NotificationInfo in GameInfo.Notifications() do
 		NotificationList[NotificationInfo.NotificationType] = NotificationInfo.Index
 	end
@@ -79,7 +80,7 @@ function InitFairies()
 			tFQPlayers[i].fFairiesProgress = 0
 			local PlayerUnitInfo = Players[i]:GetUnits()
 			for _, u in PlayerUnitInfo:Members() do
-				if u:GetType() == iFairiesID then
+				if u:GetType() == iFairiesID and u:GetLocation().x > 0 then
 					tFQPlayers[i].nFairies = tFQPlayers[i].nFairies+1
 					tFQPlayers[i].tFairies[u:GetID()] = true
 				end
@@ -152,9 +153,9 @@ end
 local function GenerateFairyGenerationTurns(iPlayer, fFairiesProgress, fCost, fProgress1t, tX, tY)
 	if fProgress1t == 0 then return end
 	local turn = math.ceil((fCost-fFairiesProgress)/fProgress1t)
-	print(iPlayer, fFairiesProgress, fCost, fProgress1t,turn)
+	-- print(iPlayer, fFairiesProgress, fCost, fProgress1t,turn)
 	if turn <= 5 or (turn%10 == 0 and turn <= 50) then
-		print("in here")
+		-- print("in here")
 		local sNotification = "LOC_NOTIFICATION_FAIRY_GENERATION_"..tostring(turn).."_TURN_SUMMARY"
 		for i, v in ipairs(tX) do
 			NotificationManager.SendNotification(iPlayer, NotificationList.NOTIFICATION_FAIRY_GENERATION_TURN, sNotification,sNotification,tX[i],tY[i])
@@ -192,14 +193,22 @@ function TheFairiesCheck(iPlayer)
 				table.insert(tY, hCity:GetY())
 			end
 		end
-		for i,v in pairs(tEnabledCities) do print("tEnabledCities",i,v)end
+		-- for i,v in pairs(tEnabledCities) do print("tEnabledCities",i,v)end
 		local units = Players[iPlayer]:GetUnits()
 		if nEnabledCities > 0 then
-			while tFQPlayers[iPlayer].fFairiesProgress >= nEnabledCities*fCostMultiplier do
+			if tFQPlayers[iPlayer].fFairiesProgress >= nEnabledCities*fCostMultiplier then
+				local nGen = math.floor(tFQPlayers[iPlayer].fFairiesProgress / (nEnabledCities*fCostMultiplier)) -- count of f each city gen
+				tFQPlayers[iPlayer].fFairiesProgress = tFQPlayers[iPlayer].fFairiesProgress-nGen*nEnabledCities*fCostMultiplier
+			
 				for i, v in ipairs(tEnabledCities) do
 					local hCity = CityManager.GetCity(iPlayer, v)
-					local hFairy = units:Create(iFairiesID, hCity:GetX(), hCity:GetY())
-					tFQPlayers[iPlayer].tFairies[hFairy:GetID()] = true
+					-- if ExposedMembers.GovernerTheBuilders and ExposedMembers.GovernerTheBuilders[iPlayer] and ExposedMembers.GovernerTheBuilders[iPlayer][hCity:GetID()] then 
+						-- print("liang is here")
+					-- end
+					for i = 1,nGen do
+						local hFairy = units:Create(iFairiesID, hCity:GetX(), hCity:GetY())
+						tFQPlayers[iPlayer].tFairies[hFairy:GetID()] = true
+					end
 				end
 				tFQPlayers[iPlayer].fFairiesProgress = tFQPlayers[iPlayer].fFairiesProgress-nEnabledCities*fCostMultiplier;
 			end
@@ -254,18 +263,18 @@ function OnUnitRemoved(iPlayer, iUnit)
 	if tFQPlayers[iPlayer] and tFQPlayers[iPlayer].tFairies[iUnit] then
 		tFQPlayers[iPlayer].tFairies[iUnit] = nil;
 		tFQPlayers[iPlayer].nFairies = tFQPlayers[iPlayer].nFairies-1
-		print("fairy removed")
+		-- print("fairy removed!")
 	end
 end
 
 function OnProjectFinished(iPlayer, iCity, iProject, iBuildingID, iX, iY, bCancelled)
 	if iProject == iDisableFairyID then 
-		local hCity = CityManager:GetCity(iPlayer, iCity)
+		local hCity = CityManager.GetCity(iPlayer, iCity)
 		hCity:GetBuildings():RemoveBuilding(BuildingIndices.BUILDING_DESSERT_HOUSE_ENABLED)
 		hCity:GetBuildQueue():CreateBuilding(BuildingIndices.BUILDING_DESSERT_HOUSE_DISABLED)
 	end
 	if iProject == iEnableFairyID then 
-		local hCity = CityManager:GetCity(iPlayer, iCity)
+		local hCity = CityManager.GetCity(iPlayer, iCity)
 		hCity:GetBuildings():RemoveBuilding(BuildingIndices.BUILDING_DESSERT_HOUSE_DISABLED)
 		hCity:GetBuildQueue():CreateBuilding(BuildingIndices.BUILDING_DESSERT_HOUSE_ENABLED)
 	end

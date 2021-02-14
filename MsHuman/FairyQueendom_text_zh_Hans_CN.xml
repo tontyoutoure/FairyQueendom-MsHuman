@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_MSHUMAN_MOD_NAME" Language="zh_Hans_CN">
+			<Text>人类衰退之后中的人类小姐</Text>
+		</Replace>
+		<Replace Tag="LOC_MSHUMAN_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>这个文明可以很快的建设期帝国，但是也异常脆弱。</Text>
+		</Replace>
+		<Replace Tag="LOC_MSHUMAN_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>添加人类衰退之后中的人类小姐和妖精帝国进入游戏。</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_NAME" Language="zh_Hans_CN">
 			<Text>妖精帝国</Text>
 		</Replace>
@@ -23,7 +32,7 @@
 			<Text>一夜城</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_ONE_NIGHT_CITY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>妖精们鼓起干劲的时候，工作效率是很高的。在建造建筑，奇观和区域时，+20% [ICON_Production] 生产力。可以消耗建造者劳动力的一次劳动力来来推进20%的建造进程。然而快速建造出来的东西都很不稳固，所有城市的外部防御减100点，并 -10 [ICON_Strength] 防御力。</Text>
+			<Text>妖精们鼓起干劲的时候，工作效率是很高的。在建造建筑，奇观和区域时，+20% [ICON_Production] 生产力。可以消耗建造者劳动力的一次劳动力来来推进20%的区域和奇观建造进程。然而快速建造出来的东西都很不稳固，所有城市的外部防御减100点，并 -10 [ICON_Strength] 防御力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_FAIRY_QUEENDOM_MALE_1" Language="zh_Hans_CN">
 			<Text>助手先生</Text>
@@ -80,7 +89,7 @@
 			<Text>饼干之城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_7" Language="zh_Hans_CN">
-			<Text>蛋糕之称</Text>
+			<Text>蛋糕之城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVLIZATION_FAIRY_QUEENDOM_CITY_8" Language="zh_Hans_CN">
 			<Text>巧克力之城</Text>
@@ -146,7 +155,7 @@
 			<Text>妖精社</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_FAIRYCO_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>替代工厂区。可以有力地支持城镇的发展以及食物供给。与城镇中心拥有大量的临近加成，并提供和 [ICON_Production] 产能加成相同的 [ICON_Food] 食物加成。内部的建筑无需要专家来操作即可提供和专家槽占满时一样的 [ICON_Production] 生产力，并提供生产力等量的食物 [ICON_Food]。因为很可疑，会造成周围居民的不安，会每回合-10忠诚度。</Text>
+			<Text>替代工厂区。可以有力地支持城镇的发展以及食物供给。与城镇中心拥有大量的临近加成，并提供和 [ICON_Production] 产能加成相同的 [ICON_Food] 食物加成。内部的建筑无需要专家来操作即可提供和专家槽占满时一样的 [ICON_Production] 生产力，并提供生产力等量的食物 [ICON_Food]。因为很可疑，会造成周围居民的不安，会每回合-10忠诚度。在研究了{LOC_CIVIC_STATE_WORKFORCE_NAME}，{LOC_CIVIC_FEUDALISM_NAME}和{LOC_CIVIC_CIVIL_ENGINEERING_NAME}之后，可以在此提升妖精桑的劳动力。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_MINE_FOOD" Language="zh_Hans_CN">
 			<Text>+{1_num} [ICON_Food] 食物来自相邻{1_Num : plural 1?矿山; other?矿山;}。</Text>
@@ -235,6 +244,25 @@
 		<Replace Tag="LOC_NOTIFICATION_FAIRY_GENERATION_50_TURN_SUMMARY" Language="zh_Hans_CN">
 			<Text>还需要50回合才能生成妖精桑。</Text>
 		</Replace>
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_1_NAME" Language="zh_Hans_CN">
+			<Text>妖精桑建造次数 等级1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有妖精桑建造次数加1.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_2_NAME" Language="zh_Hans_CN">
+			<Text>妖精桑建造次数 等级2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有妖精桑建造次数加1.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_3_NAME" Language="zh_Hans_CN">
+			<Text>妖精桑建造次数 等级3</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有妖精桑建造次数加1.</Text>
+		</Replace>
+		
 
 	</LocalizedText>
 </GameData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FairyQueendom_Babylon -->
+<!-- Author: LI Kun -->
+<!-- DateCreated: 2021-2-14 11:13:58 AM -->
+<GameData>
+	<Improvement_ValidBuildUnits>
+		<!--Babylon-->
+		<Row ImprovementType="IMPROVEMENT_MAHAVIHARA" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_TRADING_DOME" UnitType="UNIT_THE_FAIRIES"/>
+	</Improvement_ValidBuildUnits>
+</GameData>

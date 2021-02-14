@@ -2,24 +2,35 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Fairy Queendom - Ms. Human</Name>
+    <Name>LOC_MSHUMAN_MOD_NAME</Name>
     <Guid>4e9efefc-b1de-493e-ae36-c4a7ff3b2fc5</Guid>
     <ProjectGuid>fac82f38-c5f2-4faa-8e15-6d8e694689af</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>Add Ms Human from Humanity has declined into the game</Teaser>
-    <Description>This civilization specialize in building empire fast. It's downside are it's really fragile.</Description>
+    <Teaser>LOC_MSHUMAN_MOD_TEASER</Teaser>
+    <Description>LOC_MSHUMAN_MOD_DESCRIPTION</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay_FairyQueendom"><File>FairyQueendom_Civilization.xml</File><File>FairyQueendom_Leader.xml</File><File>FairyQueendom_Buildings.xml</File><File>FairyQueendom_Districts.xml</File><File>FairyQueendom_Units.xml</File></UpdateDatabase><UpdateText id="Text_FairyQueendom"><File>FairyQueendom_text_zh_Hans_CN.xml</File><File>FairyQueendom_text_en_US.xml</File></UpdateText><UpdateIcons id="Icons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="Art_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="Script_FairyQueendom"><File>FairyQueendom_Script.lua</File></AddGameplayScripts><UpdateColors id="Color_FQ"><File>FairyQueendom_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config_FairyQueendom"><File>FairyQueendom_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText_FairyQueendom"><File>FairyQueendom_text_zh_Hans_CN.xml</File><File>FairyQueendom_text_en_US.xml</File></UpdateText><UpdateIcons id="ConfigIcons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColor_FQ"><File>FairyQueendom_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay_FairyQueendom"><File>FairyQueendom_Civilization.xml</File><File>FairyQueendom_Leader.xml</File><File>FairyQueendom_Buildings.xml</File><File>FairyQueendom_Districts.xml</File><File>FairyQueendom_Units.xml</File><File>FairyQueendom_Projects.xml</File></UpdateDatabase><UpdateText id="Text_FairyQueendom"><Properties><LoadOrder>100</LoadOrder></Properties><File>FairyQueendom_text_zh_Hans_CN.xml</File><File>FairyQueendom_text_en_US.xml</File></UpdateText><UpdateIcons id="Icons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="Art_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="Script_FairyQueendom"><File>FairyQueendom_Script.lua</File></AddGameplayScripts><UpdateColors id="Color_FQ"><File>FairyQueendom_Colors.xml</File></UpdateColors><UpdateDatabase id="FQ_BABYLON"><Properties><LoadOrder>100</LoadOrder></Properties><Include mod_id="8424840C-92EF-4426-A9B4-B4E0CB818049" action_id="FQ_BABYLON_ref" /><File>FairyQueendom_Babylon.xml</File></UpdateDatabase><UpdateDatabase id="FQ_GCM"><Properties><LoadOrder>100</LoadOrder></Properties><Required mod_id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" action_id="FQ_GCM_ref" /><File>FairyQueendom_GranColombia_Maya.xml</File></UpdateDatabase><UpdateDatabase id="FQ_Monopolies"><Properties><LoadOrder>100</LoadOrder></Properties><Criteria>Monopolies_Mode</Criteria><File>FairyQueendom_Monopolies.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config_FairyQueendom"><File>FairyQueendom_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText_FairyQueendom"><Properties><LoadOrder>100</LoadOrder></Properties><File>FairyQueendom_text_zh_Hans_CN.xml</File><File>FairyQueendom_text_en_US.xml</File></UpdateText><UpdateIcons id="ConfigIcons_FairyQueendom"><File>FairyQueendom_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt_FairyQueendom"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColor_FQ"><File>FairyQueendom_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="Monopolies_Mode"><ConfigurationValueMatches><ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId><Group>Game</Group><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="BabylonEnabled"><ModIsEnabled>8424840C-92EF-4426-A9B4-B4E0CB818049</ModIsEnabled></Criteria><Criteria id="GCMEnabled"><ModIsEnabled>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModIsEnabled></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>MsHuman</AssemblyName>
     <RootNamespace>MsHuman</RootNamespace>
     <Authors>LI Kun</Authors>
     <SpecialThanks>Hemmelfort</SpecialThanks>
+    <ModProperties>
+      <CustomProperties />
+    </ModProperties>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Reference type="Dlc" title="LOC_KUBLAIKHAN_VIETNAM_MOD_TITLE" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
+  <Reference type="Dlc" title="LOC_BABYLON_MOD_TITLE" id="8424840C-92EF-4426-A9B4-B4E0CB818049" />
+  <Reference type="Mod" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE" id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" />
+  <Dependency type="Dlc" title="Scenario: Vikings, Traders, and Raiders!" id="05698E46-1032-43C7-A40C-FA3D02858D2A" />
+</Associations>]]></AssociationData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -43,6 +54,9 @@
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="FairyQueendom_Babylon.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="FairyQueendom_Civilization.xml">
       <SubType>Content</SubType>
     </Content>
@@ -55,10 +69,16 @@
     <Content Include="FairyQueendom_Districts.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="FairyQueendom_GranColombia_Maya.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="FairyQueendom_Icons.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="FairyQueendom_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Projects.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="FairyQueendom_Script.lua">
@@ -70,6 +90,9 @@
     <Content Include="FairyQueendom_text_zh_Hans_CN.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="FairyQueendom_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="FairyQueendom_Units.xml">
       <SubType>Content</SubType>
     </Content>
@@ -77,6 +100,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="FairyQueendom_x10.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FairyQueendom_Monopolies.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="MsHuman.Art.xml">

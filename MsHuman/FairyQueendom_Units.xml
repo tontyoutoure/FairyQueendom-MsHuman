@@ -14,7 +14,7 @@
 		<Row UnitType="UNIT_THE_FAIRIES" AiType="UNITTYPE_CIVILIAN"/>
 	</UnitAiInfos>
 	<UnitCaptures>
-		<Row CapturedUnitType="UNIT_THE_FAIRIES" BecomesUnitType="UNIT_BUILDER"/>
+		<Row CapturedUnitType="UNIT_THE_FAIRIES" BecomesUnitType="UNIT_THE_FAIRIES"/>
 	</UnitCaptures>
 	<TypeTags>
 		<Row Type="UNIT_THE_FAIRIES" Tag="CLASS_LANDCIVILIAN"/>
@@ -56,14 +56,24 @@
 		<Row ImprovementType="IMPROVEMENT_OIL_WELL" UnitType="UNIT_THE_FAIRIES"/>
 		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" UnitType="UNIT_THE_FAIRIES"/>
 		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" UnitType="UNIT_THE_FAIRIES"/>
-		<Row ImprovementType="IMPROVEMENT_CHATEAU" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_FISHERY" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_CITY_PARK" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" UnitType="UNIT_THE_FAIRIES"/>
+
+		<!-- city state improvements-->
 		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" UnitType="UNIT_THE_FAIRIES"/>
-		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" UnitType="UNIT_THE_FAIRIES"/>
-		<Row ImprovementType="IMPROVEMENT_KURGAN" UnitType="UNIT_THE_FAIRIES"/>
-		<Row ImprovementType="IMPROVEMENT_MISSION" UnitType="UNIT_THE_FAIRIES"/>
-		<Row ImprovementType="IMPROVEMENT_SPHINX" UnitType="UNIT_THE_FAIRIES"/>
-		<Row ImprovementType="IMPROVEMENT_STEPWELL" UnitType="UNIT_THE_FAIRIES"/>
-		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_NAZCA_LINE" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" UnitType="UNIT_THE_FAIRIES"/>
+
+		<!--Viking scenario-->
+		<Row ImprovementType="IMPROVEMENT_ALCAZAR" UnitType="UNIT_THE_FAIRIES"/>
+		<Row ImprovementType="IMPROVEMENT_MONASTERY" UnitType="UNIT_THE_FAIRIES"/>
 	</Improvement_ValidBuildUnits>
 	<Notifications>
 		<Row NotificationType="NOTIFICATION_FAIRY_DIE_RADIO" SeverityType="HIGH" ExpiresEndOfTurn="True" AutoNotify="False" Message="LOC_NOTIFICATION_FAIRY_DIE_RADIO_MESSAGE" Summary="LOC_NOTIFICATION_FAIRY_DIE_RADIO_SUMMARY"/>

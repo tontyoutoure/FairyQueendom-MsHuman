@@ -334,6 +334,90 @@
 			<m_ObjectName text="Project_Enable_TheFairies_generation_80"/>
 		</Element>
 		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_1_256"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_1_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_1_30"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_1_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_1_32"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_1_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_1_38"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_1_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_1_50"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_1_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_1_70"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_1_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_1_80"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_1_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_2_256"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_2_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_2_30"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_2_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_2_32"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_2_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_2_38"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_2_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_2_50"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_2_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_2_70"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_2_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_2_80"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_2_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_3_256"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_3_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_3_30"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_3_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_3_32"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_3_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_3_38"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_3_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_3_50"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_3_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_3_70"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_3_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Project_TheFairies_BuildCharge_3_80"/>
+			<m_ObjectName text="Project_TheFairies_BuildCharge_3_80"/>
+		</Element>
+		<Element>
 			<m_EntryID text="TheFairies_22"/>
 			<m_ObjectName text="TheFairies_22"/>
 		</Element>

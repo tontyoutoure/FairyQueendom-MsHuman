@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_MSHUMAN_MOD_NAME" Language="en_US">
+			<Text>Ms. Human from Humanity Has Declined</Text>
+		</Replace>
+		<Replace Tag="LOC_MSHUMAN_MOD_DESCRIPTION" Language="en_US">
+			<Text>This civilization specialize in building empire fast. It's downside are it's really fragile.</Text>
+		</Replace>
+		<Replace Tag="LOC_MSHUMAN_MOD_TEASER" Language="en_US">
+			<Text>Add Ms Human from Humanity has declined into the game</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_FAIRY_QUEENDOM_NAME" Language="en_US">
 			<Text>Fairy Queendom</Text>
 		</Replace>
@@ -17,7 +26,7 @@
 			<Text>Fairy unique district: Fairy Co.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_THE_FAIRIES_NAME" Language="en_US">
-			<Text>Fairy unique district: The Fairies</Text>
+			<Text>Fairy unique unit: The Fairies</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_ONE_NIGHT_CITY_NAME" Language="en_US">
 			<Text>City Built in One Day</Text>
@@ -101,7 +110,7 @@
 			<Text>Goddess Statue</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GODDESS_STATUE_DESCRIPTION" Language="en_US">
-			<Text>Statuse the fairies made for Ms. Human. Replace Monument. Provides +2 extra [ICON_Faith] faith.</Text>
+			<Text>Statues the fairies made for Ms. Human. Replace Monument. Provides +2 extra [ICON_Faith] faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_DESSERT_1_NAME" Language="en_US">
 			<Text>Cake</Text>
@@ -146,7 +155,7 @@
 			<Text>Fairy Co.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_FAIRYCO_DESCRIPTION" Language="en_US">
-			<Text>Replaces Industrial Districts. Can strongly support the development of the town and its food supply. Has a large proximity bonus to the city center and provides the same [ICON_Food] food bonus as the [ICON_Production] production bonus. The internal buildings do not require an expert to operate to provide the same [ICON_Production] productivity as when the expert slot is full, and provide the same amount of food [ICON_Food] as productivity. Because it is suspicious, it will cause uneasiness to the surrounding inhabitants, and will be -10 loyalty per turn.</Text>
+			<Text>Replaces Industrial Districts. Can strongly support the development of the town and its food supply. Has a large proximity bonus to the city center and provides the same [ICON_Food] food bonus as the [ICON_Production] production bonus. The internal buildings do not require an expert to operate to provide the same [ICON_Production] productivity as when the expert slot is full, and provide the same amount of food [ICON_Food] as productivity. Because it is suspicious, it will cause uneasiness to the surrounding inhabitants, and will be -10 loyalty per turn. After researching {LOC_CIVIC_STATE_WORKFORCE_NAME}, {LOC_CIVIC_FEUDALISM_NAME} and {LOC_CIVIC_CIVIL_ENGINEERING_NAME} civics, can promote all fairy work charge.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_MINE_FOOD" Language="en_US">
 			<Text>+{1_num} [ICON_Food] Food from nearby {1_Num : plural 1?mine; other?mines;}.</Text>
@@ -236,5 +245,25 @@
 			<Text>50 turn before The Faires To Generate.</Text>
 		</Replace>
 
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_1_NAME" Language="en_US">
+			<Text>The Fairies Building Charges Lv. 1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_1_DESCRIPTION" Language="en_US">
+			<Text>Build Charge +1 for The Faries.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_2_NAME" Language="en_US">
+			<Text>The Fairies Building Charges Lv. 2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_2_DESCRIPTION" Language="en_US">
+			<Text>Build Charge +1 for The Faries.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_3_NAME" Language="en_US">
+			<Text>The Fairies Building Charges Lv. 3</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_THE_FAIRIES_BUILD_CHARGE_3_DESCRIPTION" Language="en_US">
+			<Text>Build Charge +1 for The Faries.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FairyQueendom_GranColombia_Maya -->
+<!-- Author: LI Kun -->
+<!-- DateCreated: 2021-2-14 11:22:14 AM -->
+<GameData>
+	<Improvement_ValidBuildUnits>
+		<!--Maya & Gran Colombia Pack-->
+		<Row ImprovementType="IMPROVEMENT_BATEY" UnitType="UNIT_THE_FAIRIES"/>
+	</Improvement_ValidBuildUnits>
+
+</GameData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: LI Kun -->
+<!-- DateCreated: 2021-2-14 10:30:48 AM -->
+<GameData>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_INDUSTRY" UnitType="UNIT_THE_FAIRIES"/>
+	</Improvement_ValidBuildUnits>
+</GameData>

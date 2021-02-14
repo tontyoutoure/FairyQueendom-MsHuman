@@ -18,8 +18,6 @@
 		<Row Type="RESOURCE_DESSERT_4" Kind="KIND_RESOURCE"/>
 		<Row Type="RESOURCE_DESSERT_5" Kind="KIND_RESOURCE"/>
 		<Row Type="RESOURCE_DESSERT_6" Kind="KIND_RESOURCE"/>
-		<Row Type="PROJECT_DISABLE_GENERATE_FAIRY" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_ENABLE_GENERATE_FAIRY" Kind="KIND_PROJECT"/>
 	</Types>
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_DESSERT_HOUSE" ReplacesBuildingType="BUILDING_GRANARY"/>
@@ -174,24 +172,4 @@
 		<Row ResourceType="RESOURCE_DESSERT_5" Name="LOC_RESOURCE_DESSERT_5_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
 		<Row ResourceType="RESOURCE_DESSERT_6" Name="LOC_RESOURCE_DESSERT_6_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
 	</Resources>
-	<Projects>
-		<Row ProjectType="PROJECT_DISABLE_GENERATE_FAIRY" 
-			 Name="LOC_PROJECT_DISABLE_GENERATE_FAIRY_NAME" 
-			 ShortName="LOC_PROJECT_DISABLE_GENERATE_FAIRY_NAME" 
-			 Description="LOC_PROJECT_DISABLE_GENERATE_FAIRY_DESCRIPTION" 
-			 Cost="1" 
-			 AdvisorType="ADVISOR_GENERIC" 
-			 CostProgressionModel="NO_COST_PROGRESSION"
-			 RequiredBuilding="BUILDING_DESSERT_HOUSE_ENABLED"
-			 CostProgressionParam1="0"/>
-		<Row ProjectType="PROJECT_ENABLE_GENERATE_FAIRY"
-			 Name="LOC_PROJECT_ENABLE_GENERATE_FAIRY_NAME"
-			 ShortName="LOC_PROJECT_ENABLE_GENERATE_FAIRY_NAME"
-			 Description="LOC_PROJECT_ENABLE_GENERATE_FAIRY_DESCRIPTION"
-			 Cost="1"
-			 AdvisorType="ADVISOR_GENERIC"
-			 RequiredBuilding="BUILDING_DESSERT_HOUSE_DISABLED"
-			 CostProgressionModel="NO_COST_PROGRESSION"
-			 CostProgressionParam1="0"/>
-	</Projects>
 </GameData>
